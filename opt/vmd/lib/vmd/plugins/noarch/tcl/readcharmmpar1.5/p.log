@@ -1,0 +1,28 @@
+Interaction energy can only be computed for -vdw, -elec or -nonb!
+Interaction energy can only be computed for -vdw, -elec or -nonb!
+    while executing
+"error "Interaction energy can only be computed for -vdw, -elec or -nonb!""
+    (procedure "sanitycheck" line 58)
+    invoked from within
+"sanitycheck"
+    (procedure "namdmain" line 70)
+    invoked from within
+"namdmain"
+    (in namespace inscope "::namdEnergy" script line 19)
+    invoked from within
+"::namespace inscope ::namdEnergy {
+      mol top $currentMol
+      variable sel1
+      variable sel2
+      variable nsel
+      set energy ""
+      set..."
+    invoked from within
+".namdenergy.gobutton invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 22)
+    invoked from within
+"tk::ButtonUp .namdenergy.gobutton"
+    (command bound to event)

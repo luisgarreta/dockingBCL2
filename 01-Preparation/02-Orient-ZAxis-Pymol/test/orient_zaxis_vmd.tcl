@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/orientation-axis/orient_zaxis_vmd.tcl

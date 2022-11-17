@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/get_outfiles_simulations.py

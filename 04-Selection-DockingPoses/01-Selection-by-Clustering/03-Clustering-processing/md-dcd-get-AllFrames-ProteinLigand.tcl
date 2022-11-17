@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/md-dcd-get-AllFrames-ProteinLigand.tcl

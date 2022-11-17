@@ -1,0 +1,1 @@
+../../../scripts/calculate_binding_energies-ALL.py

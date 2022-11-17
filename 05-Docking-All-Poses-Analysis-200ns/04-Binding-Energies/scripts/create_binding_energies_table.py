@@ -1,0 +1,1 @@
+../../../scripts/create_binding_energies_table.py

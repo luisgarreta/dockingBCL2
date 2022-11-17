@@ -1,0 +1,1 @@
+/home/lg/omicas/simulations/05-DockingPoses-Analysis/11-calculate-gyration-radius/RadioGyration-ALL.py

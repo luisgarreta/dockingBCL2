@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/vmd-get-frames-ALL-ProteinLigand.tcl

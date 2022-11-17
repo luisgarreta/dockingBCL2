@@ -1,0 +1,3 @@
+What is hydrogen bond occupancy ?
+Basically, as atom-atom distances and atom-atom-atom angles fluctuate in the course of a molecular dynamics simulations, in some snapshot structures along the trajectory, a hydrogen bond can be observed , while in others the distance between acceptor and donor is too large or the angle wrong to count as a hydrogen bond. The hydrogen bond occupancy tells you in what fraction of the structures the specific hydrogen bond can be detected. A high occupancy signifies that no matter how the protein structure wiggles and shakes, the hydrogen bond is there most of the time. A low occupancy means that in a large fraction of the structures, the hydrogen bond appears to be broken.
+

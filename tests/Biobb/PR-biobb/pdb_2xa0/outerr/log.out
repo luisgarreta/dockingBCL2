@@ -1,0 +1,35 @@
+2022-05-04 17:52:07,645 [MainThread  ] [INFO ]  GROMACS Pdb2gmx 20191 version detected
+2022-05-04 17:52:07,646 [MainThread  ] [INFO ]  Not using any container
+2022-05-04 17:52:07,738 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright pdb2gmx -f fixed.pdb -o protein_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+2022-05-04 17:52:07,740 [MainThread  ] [INFO ]  Exit code 1
+
+2022-05-04 17:52:07,740 [MainThread  ] [INFO ]  
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+going to rename amber99sb-ildn.ff/dna.r2b
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading fixed.pdb...
+Read '', 1769 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+Moved all the water blocks to the end
+There are 2 chains and 2 blocks of water and 241 residues with 1769 atoms
+
+  chain  #res #atoms
+  1 'A'   199   1540  
+  2 'C'    28    215  
+  3 ' '    10     10  (only water)
+  4 ' '     4      4  (only water)
+
+Reading residue database... (Amber99sb-ildn)
+Processing chain 1 'A' (1540 atoms, 199 residues)
+Identified residue ACE9 as a starting terminus.
+Identified residue NME207 as a ending terminus.
+
+2022-05-04 17:52:07,742 [MainThread  ] [INFO ]  Compressing topology to: protein_pdb2gms_top.zip
+2022-05-04 17:52:07,743 [MainThread  ] [INFO ]  Adding:
+2022-05-04 17:52:07,744 [MainThread  ] [INFO ]  ['p2g.top']
+2022-05-04 17:52:07,745 [MainThread  ] [INFO ]  to: /home/lg/repos/javerianaMD/simulation/PR-biobb/pdb_2xa0/protein_pdb2gms_top.zip
+2022-05-04 17:52:07,746 [MainThread  ] [INFO ]  Removed: ['p2g.top']

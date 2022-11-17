@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/orientation-axis/run_alignZ.sh

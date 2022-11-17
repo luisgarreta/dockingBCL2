@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/md_dcd_create_snapshots.tcl

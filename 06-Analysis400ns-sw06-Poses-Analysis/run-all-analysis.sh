@@ -1,0 +1,32 @@
+WD=`pwd`
+#00-create-full-trajectory
+cd 01-create-frames-trajectory
+sh run.sh
+cd $WD
+cd 02-create-movies
+sh run.sh
+cd $WD
+cd 03-calculate-binding-energies
+sh run.sh
+cd $WD
+cd 04-calculate-RMSDs-protein
+sh run.sh
+cd $WD
+cd 05-calculate-RMSDs-ligand
+sh run.sh
+cd $WD
+cd 06-calculate-RMSFs
+sh run.sh
+cd $WD
+cd 07-calculate-hbonds
+sh run.sh
+cd $WD
+cd 08-calculate-nonbonded-energies
+sh run.sh
+cd $WD
+cd 09-calculate-salt-bridges
+sh run.sh
+cd $WD
+cd 10-calculate-interactions-energies
+sh run.sh
+cd $WD

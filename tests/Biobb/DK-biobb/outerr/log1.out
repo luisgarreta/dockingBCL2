@@ -1,0 +1,6 @@
+2022-04-27 17:14:45,448 [MainThread  ] [INFO ]  Value  is not compatible as a coordinates value
+2022-04-27 17:14:45,449 [MainThread  ] [INFO ]  Not using any container
+2022-04-27 17:14:45,493 [MainThread  ] [INFO ]  obabel -isdf inputs/genistein.sdf -opdb -Oligand.pdb  
+
+2022-04-27 17:14:45,494 [MainThread  ] [INFO ]  Exit code 0
+

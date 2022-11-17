@@ -1,0 +1,282 @@
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (77%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350038
+Info)    Bonds: 348817
+Info)    Angles: 295733  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80080
+Info)    Waters: 78582
+Info)    Segments: 5
+Info)    Fragments: 79850   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step7-DCDs.dcd
+Info) Coordinate I/O rate 83.5 frames/sec, 334 MB/sec, 19.9 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1661 of 1661
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > /usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (77%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350095
+Info)    Bonds: 348874
+Info)    Angles: 295752  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80099
+Info)    Waters: 78601
+Info)    Segments: 5
+Info)    Fragments: 79869   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step7-DCDs.dcd
+Info) Coordinate I/O rate 84.7 frames/sec, 339 MB/sec, 19.6 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1660 of 1660
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > /usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (77%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step7-DCDs.dcd
+Info) Coordinate I/O rate 82.5 frames/sec, 330 MB/sec, 20.1 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1660 of 1660
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > /usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (77%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350131
+Info)    Bonds: 348910
+Info)    Angles: 295764  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80111
+Info)    Waters: 78613
+Info)    Segments: 5
+Info)    Fragments: 79881   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step7-DCDs.dcd
+Info) Coordinate I/O rate 84.5 frames/sec, 338 MB/sec, 19.7 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1661 of 1661
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > /usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (78%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350238
+Info)    Bonds: 349015
+Info)    Angles: 295799  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80148
+Info)    Waters: 78648
+Info)    Segments: 5
+Info)    Fragments: 79918   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step7-DCDs.dcd
+Info) Coordinate I/O rate 86.7 frames/sec, 347 MB/sec, 19.2 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1662 of 1662
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > /usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (78%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step5_input.psf
+/mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step7-DCDs.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350122
+Info)    Bonds: 348901
+Info)    Angles: 295761  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80108
+Info)    Waters: 78610
+Info)    Segments: 5
+Info)    Fragments: 79878   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step7-DCDs.dcd
+Info) Coordinate I/O rate 85.1 frames/sec, 340 MB/sec, 19.6 sec
+Info) Finished with coordinate file /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step7-DCDs.dcd.
+0
+protein and backbone
+0
+alignment 1664 of 1664
+Alignments complete, ready for RMSD calculations
+protein and backbone
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-av01
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-av01 Dir: out-namd-av01
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-av01/step7-DCDs.dcd
+trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-sw22
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-sw22 Dir: out-namd-sw22
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw22/step7-DCDs.dcd
+trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-sw06
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-sw06 Dir: out-namd-sw06
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw06/step7-DCDs.dcd
+trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-sw14
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-sw14 Dir: out-namd-sw14
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw14/step7-DCDs.dcd
+trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-sw25
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-sw25 Dir: out-namd-sw25
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-sw25/step7-DCDs.dcd
+trajectories outrmsf step5_input.psf step7-DCDs.dcd /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs out-namd-ad22
+>>>>>>>>>> WkDir: /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/outrmsf/out-namd-ad22 Dir: out-namd-ad22
+rmsf-trajectory.tcl /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step5_input.psf /mnt/BIO/omicas/simulations/05-DockingPoses-Analysis/05-RMSFs/trajectories/out-namd-ad22/step7-DCDs.dcd

@@ -1,0 +1,71 @@
+2022-05-04 18:23:23,333 [MainThread  ] [INFO ]  GROMACS Pdb2gmx 20191 version detected
+2022-05-04 18:23:23,334 [MainThread  ] [INFO ]  Not using any container
+2022-05-04 18:23:24,040 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright pdb2gmx -f fixed.pdb -o protein_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+2022-05-04 18:23:24,041 [MainThread  ] [INFO ]  Exit code 0
+
+2022-05-04 18:23:24,042 [MainThread  ] [INFO ]  
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+going to rename amber99sb-ildn.ff/dna.r2b
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading fixed.pdb...
+Read '', 1761 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+Moved all the water blocks to the end
+There are 2 chains and 2 blocks of water and 237 residues with 1761 atoms
+
+  chain  #res #atoms
+  1 'A'   197   1536  
+  2 'C'    26    211  
+  3 ' '    10     10  (only water)
+  4 ' '     4      4  (only water)
+
+Reading residue database... (Amber99sb-ildn)
+Processing chain 1 'A' (1536 atoms, 197 residues)
+Identified residue ASP10 as a starting terminus.
+Identified residue MET206 as a ending terminus.
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 197 residues with 3003 atoms
+Chain time...
+Processing chain 2 'C' (211 atoms, 26 residues)
+Identified residue LYS57 as a starting terminus.
+Identified residue ASP82 as a ending terminus.
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 26 residues with 429 atoms
+Chain time...
+Processing chain 3 (10 atoms, 10 residues)
+Problem with chain definition, or missing terminal residues.
+This chain does not appear to contain a recognized chain molecule.
+If this is incorrect, you can edit residuetypes.dat to modify the behavior.
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 10 residues with 30 atoms
+Processing chain 4 (4 atoms, 4 residues)
+Problem with chain definition, or missing terminal residues.
+This chain does not appear to contain a recognized chain molecule.
+If this is incorrect, you can edit residuetypes.dat to modify the behavior.
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 4 residues with 12 atoms
+Including chain 1 in system: 3003 atoms 197 residues
+Including chain 2 in system: 429 atoms 26 residues
+Including chain 3 in system: 30 atoms 10 residues
+Including chain 4 in system: 12 atoms 4 residues
+		--------- PLEASE NOTE ------------
+You have successfully generated a topology from: fixed.pdb.
+The Amber99sb-ildn force field and the spce water model are used.
+		--------- ETON ESAELP ------------
+
+2022-05-04 18:23:24,044 [MainThread  ] [INFO ]  Compressing topology to: protein_pdb2gms_top.zip
+2022-05-04 18:23:24,045 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/forcefield.itp
+2022-05-04 18:23:24,070 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/spce.itp
+2022-05-04 18:23:24,071 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/ions.itp
+2022-05-04 18:23:24,076 [MainThread  ] [INFO ]  Adding:
+2022-05-04 18:23:24,077 [MainThread  ] [INFO ]  ['p2g.top', 'p2g_Protein_chain_A.itp', 'p2g_Protein_chain_C.itp', 'posre_Protein_chain_A.itp', 'posre_Protein_chain_C.itp']
+2022-05-04 18:23:24,083 [MainThread  ] [INFO ]  to: /home/lg/repos/javerianaMD/simulation/PR-biobb/pdb_2xa0/protein_pdb2gms_top.zip
+2022-05-04 18:23:24,084 [MainThread  ] [INFO ]  Removed: ['p2g.top']

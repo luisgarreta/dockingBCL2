@@ -1,0 +1,80 @@
+Salt Bridges Plugin, Version 1.0
+Fri Aug 26 13:01:23 -05 2022
+
+Parameters used in the calculation of salt bridges:
+- Atomselection: segname PROA or segname HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 1989
+- Oxygen-nitrogen cut-off: 3.2
+- Center of mass cut-off: none
+- Write a file for each salt bridge: yes
+
+Searching for ion-pairs with oxygen-nitrogen distance within 3.2 Angstroms in the selected frames... Done.
+Removing redundancies in the ion-pairs found... Done.
+Extracting identification of each salt bridge... 
+Warning: the identification UNL1_chainH_segnameHETA is not unique.
+
+Warning: the identification UNL1_chainH_segnameHETA is not unique.
+
+Warning: the identification UNL1_chainH_segnameHETA is not unique.
+
+Warning: the identification UNL1_chainH_segnameHETA is not unique.
+
+Warning: the identification UNL1_chainH_segnameHETA is not unique.
+Done.
+Found 50 salt bridges.
+
+GLU208_chainP_segnamePROA-ARG204_chainP_segnamePROA
+GLU98_chainP_segnamePROA-ARG102_chainP_segnamePROA
+GLU39_chainP_segnamePROA-ARG165_chainP_segnamePROA
+UNL1_chainH_segnameHETA-UNL1_chainH_segnameHETA
+GLU96_chainP_segnamePROA-ARG100_chainP_segnamePROA
+ASP61_chainP_segnamePROA-ARG165_chainP_segnamePROA
+ASP133_chainP_segnamePROA-ARG139_chainP_segnamePROA
+GLU36_chainP_segnamePROA-ARG6_chainP_segnamePROA
+GLU193_chainP_segnamePROA-ARG204_chainP_segnamePROA
+GLU39_chainP_segnamePROA-ARG78_chainP_segnamePROA
+GLU202_chainP_segnamePROA-ARG209_chainP_segnamePROA
+ASP133_chainP_segnamePROA-ARG132_chainP_segnamePROA
+GLU7_chainP_segnamePROA-LYS205_chainP_segnamePROA
+GLU208_chainP_segnamePROA-ARG212_chainP_segnamePROA
+ASP156_chainP_segnamePROA-LYS157_chainP_segnamePROA
+ASP29_chainP_segnamePROA-ARG6_chainP_segnamePROA
+GLU31_chainP_segnamePROA-ARG34_chainP_segnamePROA
+GLU208_chainP_segnamePROA-LYS205_chainP_segnamePROA
+ASP76_chainP_segnamePROA-ARG34_chainP_segnamePROA
+GLU44_chainP_segnamePROA-ARG78_chainP_segnamePROA
+GLU98_chainP_segnamePROA-LYS20_chainP_segnamePROA
+GLU31_chainP_segnamePROA-LYS205_chainP_segnamePROA
+GLU92_chainP_segnamePROA-ARG91_chainP_segnamePROA
+GLU153_chainP_segnamePROA-LYS157_chainP_segnamePROA
+ASP95_chainP_segnamePROA-LYS16_chainP_segnamePROA
+ASP11_chainP_segnamePROA-ARG34_chainP_segnamePROA
+GLU98_chainP_segnamePROA-LYS16_chainP_segnamePROA
+GLU184_chainP_segnamePROA-UNL1_chainH_segnameHETA
+GLU179_chainP_segnamePROA-ARG78_chainP_segnamePROA
+GLU129_chainP_segnamePROA-ARG132_chainP_segnamePROA
+ASP189_chainP_segnamePROA-ARG204_chainP_segnamePROA
+ASP156_chainP_segnamePROA-LYS20_chainP_segnamePROA
+GLU7_chainP_segnamePROA-ARG34_chainP_segnamePROA
+ASP76_chainP_segnamePROA-ARG78_chainP_segnamePROA
+GLU202_chainP_segnamePROA-ARG204_chainP_segnamePROA
+ASP107_chainP_segnamePROA-ARG103_chainP_segnamePROA
+ASP11_chainP_segnamePROA-LYS205_chainP_segnamePROA
+GLU179_chainP_segnamePROA-UNL1_chainH_segnameHETA
+GLU36_chainP_segnamePROA-ARG78_chainP_segnamePROA
+GLU32_chainP_segnamePROA-ARG34_chainP_segnamePROA
+GLU36_chainP_segnamePROA-ARG165_chainP_segnamePROA
+GLU79_chainP_segnamePROA-ARG78_chainP_segnamePROA
+ASP11_chainP_segnamePROA-LYS87_chainP_segnamePROA
+GLU46_chainP_segnamePROA-ARG6_chainP_segnamePROA
+GLU202_chainP_segnamePROA-LYS205_chainP_segnamePROA
+UNL1_chainH_segnameHETA-ARG132_chainP_segnamePROA
+GLU92_chainP_segnamePROA-LYS205_chainP_segnamePROA
+GLU7_chainP_segnamePROA-LYS87_chainP_segnamePROA
+ASP95_chainP_segnamePROA-ARG91_chainP_segnamePROA
+GLU46_chainP_segnamePROA-ARG78_chainP_segnamePROA
+
+Printing distances over all frames for each salt-bridge... 

@@ -1,0 +1,9 @@
+name: biobb_ligand_parameterization_tutorial
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_io==3.6.0
+  - biobb_chemistry==3.6.0
+  - nglview
+  - conda

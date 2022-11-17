@@ -1,0 +1,7 @@
+2022-04-27 17:14:05,707 [MainThread  ] [INFO ]  Loading residue PDB selection from inputs/2xa0_A_groove_domains.pdb
+2022-04-27 17:14:05,710 [MainThread  ] [INFO ]  Binding site center (Angstroms):     28.230   -19.599   -15.996
+2022-04-27 17:14:05,711 [MainThread  ] [INFO ]  Adding 12.0 Angstroms offset
+2022-04-27 17:14:05,712 [MainThread  ] [INFO ]  Binding site size (Angstroms):       26.367    22.956    26.581
+2022-04-27 17:14:05,713 [MainThread  ] [INFO ]  Volume (cubic Angstroms): 128718
+2022-04-27 17:14:05,714 [MainThread  ] [INFO ]  Adding box coordinates
+2022-04-27 17:14:05,715 [MainThread  ] [INFO ]  Saving output PDB file (with box setting annotations): box.pdb

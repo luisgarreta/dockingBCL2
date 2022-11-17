@@ -1,0 +1,73 @@
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 11GB (69%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+after#0
+1.0
+-----------------------------------------------------------------------------------------------
+
+Extracts the protein and ligand PDB files from each step.
+frame-trajectory.tcl <PSF file> <DCD trajectory>
+-----------------------------------------------------------------------------------------------
+short.psf
+short.dcd
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file short.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file short.dcd
+Info) Finished with coordinate file short.dcd.
+0
+10
+>>> nFrames: 10
+Calculating principal axes.
+Getting the center-of-mass...
+Total weight: 25751.715111136436
+Computing the inertia tensor...
+Drawing the principal components...
+Total weight: 25751.715111136436
+cone {10.984790383755216 -48.37306147958001 -42.63376929926976} {13.608904012388287 -60.35232515641013 -42.393243558000265} radius 3.066416711807251
+cone {47.93392296874943 10.072188199891354 -36.87138665390693} {59.79531974363105 12.704236942929064 -35.19026525129673} radius 3.066416711807251
+cone {-6.285587567088015 -0.9642489580672007 4.994260298498467} {-7.979068426165751 -1.091309504519127 17.141793439210012} radius 3.066416711807251
+>>> I: 
+{0.21393974427292534 -0.9766500122687108 0.019609675060091158} {0.9670405141944067 0.2145866813293018 0.13705911170985302} {-0.13806675822605752 -0.010359041056184487 0.9903687497802744}
+>>>
+Calculating principal axes.
+Getting the center-of-mass...
+Total weight: 25751.715111136436
+Computing the inertia tensor...
+Drawing the principal components...
+Total weight: 25751.715111136436
+cone {11.597008970554793 -47.65817198363218 -43.74056117305993} {14.477890034553509 -59.58155075763211 -43.700725225846476} radius 3.066635208129883
+cone {47.5024190841582 11.512064230086445 -38.77453269403423} {59.359652676557765 14.381244509516165 -37.493189627064346} radius 3.066635208129883
+cone {-4.945773917921672 -1.014358801345933 4.8975698970019295} {-6.200588576042072 -1.2767842797743072 17.09693861173085} radius 3.066635208129883
+>>> J: 
+{0.21393974427292534 -0.9766500122687108 0.019609675060091158} {0.9670405141944067 0.2145866813293018 0.13705911170985302} {-0.13806675822605752 -0.010359041056184487 0.9903687497802744}
+>>>
+veclength: non-numeric in vector
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > 

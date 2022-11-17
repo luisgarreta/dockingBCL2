@@ -1,0 +1,507 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Concepts in PUJ MD
+\end_layout
+
+\begin_layout Section
+Docking Steps:
+\end_layout
+
+\begin_layout Itemize
+1.
+ Get the complex (CPLX) coordinates (i.e.
+ from the PDB).
+\end_layout
+
+\begin_layout Itemize
+2.
+ Clean the complex (delete all the water and the solvent molecules and all
+ noninteracting ions).
+\end_layout
+
+\begin_layout Itemize
+3.
+ Add the missing hydrogens/side chain atoms and minimized the complex (AMBER
+ Program).
+\end_layout
+
+\begin_layout Itemize
+4.
+ Clean the minimized complex (delete all the water and the solvent molecules
+ and all non-interacting ions).
+\end_layout
+
+\begin_layout Itemize
+5.
+ Separate the minimized CPLX in macromolecule (LOCK) and ligand (KEY).
+\end_layout
+
+\begin_layout Itemize
+6.
+ Prepare the docking suitable files for LOCK and KEY (pdbqt files).
+\end_layout
+
+\begin_layout Itemize
+7.
+ Prepare all the needing files for docking (grid parameter file, map files,
+ docking parameter files).
+\end_layout
+
+\begin_layout Itemize
+8.
+ Run the docking.
+\end_layout
+
+\begin_layout Itemize
+9.
+ Analyze the docking results.
+\end_layout
+
+\begin_layout Section
+Molecuar Docking
+\end_layout
+
+\begin_layout Itemize
+In the field of molecular modeling, docking is a method which predicts the
+ preferred orientation of one molecule to a second when a ligand and a target
+ are bound to each other to form a stable complex (wikipedia.org).
+\end_layout
+
+\begin_layout Section
+Finding unknown ligand sites in a receptor with AutoLigand
+\end_layout
+
+\begin_layout Itemize
+AutoLigand is a tool used to identify and characterize ligand binding sites.
+ 
+\end_layout
+
+\begin_layout Itemize
+To find unknown ligand sites, AutoLigand is run with a series of fill volume
+ sizes and plotted as Total Energy/Volume vs.
+ Volume.
+ The sharp peak in figure 5 is the optimal size of the fill volume and was
+ shown to fill the active site in the HIV protease (PDB: 1hps).
+ The peak is due to the change in total energy of the fill volume as larger
+ volumes are used.
+ As more points are added, the affinity improves until an optimal fill is
+ reached, then as more points are added, the volume is increased with less
+ affinity points which reduces the overall affinity.
+ The different colors in the plot show different regions of fill overlap.
+ When small volumes are used, there are many posible binding sites.
+ But, as larger fill volumes are used, the results collapse to a single
+ best fill region (which is normally the active site).
+ The best affinity of the active site of the HIV protease is X-shaped (see
+ figure 1).
+ The smaller fills in the black set (volumes 100 to 200) can only fill one
+ of the legs of the X.
+ As larger fills are used (cyan set, volumes 300 to 500), a second leg of
+ the X is filled.
+ Finally, the green set fills all four legs of the X-shape until an optimal
+ volume of 1000 is reached.
+ (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://autodock.scripps.edu/resources/autoligand/
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Structure Data Format (SDF) 
+\end_layout
+
+\begin_layout Itemize
+SDF is a chemical file formats to represent multiple chemical structure
+ records and associated data fields.
+ SDF was developed and published by Molecular Design Limited (MDL) and became
+ the the most widely used standard for importing and exporting information
+ on chemicals.
+ (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://biotech.fyicenter.com/resource/sdf_format.html
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+General steps for preparing protein and ligand
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://sites.ualberta.ca/~pwinter/Molecular_Docking_Tutorial.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+B) For both the macromolecule and the ligand, you should always add polar
+ hydrogens, compute Gasteiger charges and then you must merge the non-polar
+ hydrogens.
+ Polar hydrogens are hydrogens that are bonded to electronegative atoms
+ like oxygen and nitrogen.
+ Non-polar hydrogens are hydrogens bonded to carbon atoms.
+\end_layout
+
+\begin_layout Itemize
+C) You need one AutoGrid map for every atom type in the ligand plus an electrost
+atics map.
+ E.g.: for ethanol, C2H5OH, you would need C, OA and HD maps plus an electrostatic
+s 'e' map plus a desolvation 'd' map.
+\end_layout
+
+\begin_layout Itemize
+D) The grid volume should be large enough to at least allow the ligand to
+ rotate freely, even when the ligand is in its most fully extended conformation.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.csb.yale.edu/userguides/datamanip/dock/DOCK_4.0.1/html/Manual.9.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Before you can dock a ligand, you will need atom types and charges for every
+ atom in the ligand
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Blind and site-specific docking
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://bioinformaticsreview.com/question/what-is-the-difference-between-the-blin
+d-docking-and-binding-site-based-docking/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Blind docking
+\series default
+ is done when we do not have any information about the catalytic sites/
+ binding sites in a protein.
+ It is generally done with the novel proteins.
+ Also, the blind docking is used to find out the binding sites in a protein
+ and you dock whole protein with your ligand, so your ligand can bind anywhere,
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Site-specific docking
+\series default
+ is done when you bind your molecule within a particular site and you know
+ the binding sites of that protein already.
+ In site-specific docking, you define the binding residues so that the ligand
+ binds only within this specific pocket.
+ Sometimes, the ligand does not show any interaction with the binding site,
+ that depends on the nature of the ligand.
+\end_layout
+
+\begin_layout Section
+AutoDock Affinity Maps:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737998/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+AutoDock represents the rigid part of the receptor using 3D rectilinear
+ grids called affinity maps and computed by AutoGrid1.
+ For a given receptor and a docking box, an affinity map is computed for
+ each atom type present in the ligand to be docked, along with electrostatic
+ and desolvation maps.
+ These maps greatly reduce docking calculation runtimes as they allow the
+ calculation of interactions between a ligand atom and the entire set of
+ atoms in the receptor using trilinear interpolations in the maps.
+ While it is possible to compute these maps on the fly, as is done in AutoDock
+ Vina3, precomputing them presents several interesting advantages.
+\end_layout
+
+\begin_layout Itemize
+In the affinity maps calculated by AutoGrid4, the regions covered by the
+ receptor contain high frequency values ranging from small negative (i.e.,
+ favorable affinity regions) to large positive values (i.e.
+ inside the receptor core).
+ The presence of numerous local minima in between receptor atoms (Fig 1,
+ left panel) can hinder the optimization of a ligand that overlaps with
+ the receptor, which happens frequently during the early stage of the automated
+ docking process.
+ We defined and implemented a protocol to replace these high frequency values
+ inside the receptor by a gradient from the inside of the receptor toward
+ its surface (Fig.
+ 1, right panel).
+ The gradient guides ligands overlapping with the receptor toward its surface.
+ The gradient is calculated for all maps except the electrostatic and desolvatio
+n maps.
+ Map values are only modified in regions inside the receptor, thus docked
+ ligands that do not overlap with the receptor yield identical score with
+ maps with gradients and with the original maps.
+ The process for adding gradients is parallelized using OpenMP13.
+\end_layout
+
+\begin_layout Section
+AutoDock Results Analysis:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.researchgate.net/post/Exact-procedure-for-autodock-result-analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sathiyamoorthy Subramaniyam:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+First, are you using Autodock 4.0 or autodock vina, because they're both
+ completely different in terms of speed, execution and analytics.
+ Assuming you are using the latter, Autodock Vina, it¡'s the simplest software
+ for docking because the output you see in the --log option (also printed
+ above) is telling you the pose number, the energy (the more negative the
+ value, the better the interaction, which is assumed to be the dG), and
+ then, RMSD's which are useless as they only tell you the structural difference
+ between your first pose and the following poses when compared to the best
+ one.
+\end_layout
+
+\begin_layout Itemize
+Ideally, one should trust that the first pose is always the best one (this
+ is a milestone), and so, you must consider if your correct pose is the
+ 2nd or the 3rd.
+ How many poses you need to consider in your analysis ?.
+ Well, is another tricky question, but can be done using X-ray known inhibitors
+ and re-dock them to your binding site and try to see if the software successful
+ly reproduces the binding pose.
+ If your x-ray known inhibitor matches with the first pose, then you only
+ consider the first pose of every molecule.
+ If your x-ray inhibitor matches with your 2nd pose, then, consider the
+ first two poses of every molecule and so on.When doing that, you filter
+ out a lot of raw data you won't need to process, and only focus on those
+ poses where realistically, you may have a computational hit.
+\end_layout
+
+\begin_layout Itemize
+Afterwards, would be very recommended to re-score the filtered ligands with
+ another software, preferentially with a force-field dependent scoring function.
+ There are a lot of force-fields to be used (MMFF94, PFROSST...), what to use,
+ is up to you.
+ When applying a Force-Field scoring function, the energy value of dG of
+ some pre-selected ligand will drop down very dramatically, then, you can
+ reject those compounds if you want.
+ Only those compounds where AutoDock vina and another scoring functions
+ gives you good values, should be considered for further analysis.
+\end_layout
+
+\begin_layout Itemize
+Additionally, you don't have to trust completely the docking prediction.
+ You have to evaluate if the generated docked poses are realistic or not
+ as Viachaslau Bernat pointed out (i.e, there are no positively or negatively
+ charged groups in the nearby of neutral or aliphatic regions, if there
+ is complementarity between your predicted poses and your binding site,
+ if they poses you obtain are encompassing a known pharmacophoric point
+ described in the literature, etc.).
+ The protocol itself is an art, can NOT be extensively applied for every
+ protein.
+\end_layout
+
+\begin_layout Itemize
+If you have more computational resources, those poses of those ligand that
+ look promising can be included in a higher-computer demanding approach,
+ such is molecular dynamics, but this is another issue.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Binding Affinity 
+\end_layout
+
+\begin_layout Itemize
+https://www.malvernpanalytical.com/en/products/measurement-type/binding-affinity
+\end_layout
+
+\begin_layout Itemize
+Binding affinity is the strength of the binding interaction between a single
+ biomolecule (e.g.
+ protein or DNA) to its ligand/binding partner (e.g.
+ drug or inhibitor).
+ Binding affinity is typically measured and reported by the equilibrium
+ dissociation constant (KD), which is used to evaluate and rank order strengths
+ of bimolecular interactions.
+ The smaller the KD value, the greater the binding affinity of the ligand
+ for its target.
+ The larger the KD value, the more weakly the target molecule and ligand
+ are attracted to and bind to one another.
+ 
+\end_layout
+
+\begin_layout Itemize
+Binding affinity is influenced by non-covalent intermolecular interactions
+ such as hydrogen bonding, electrostatic interactions, hydrophobic and Van
+ der Waals forces between the two molecules.
+ In addition, binding affinity between a ligand and its target molecule
+ may be affected by the presence of other molecules.
+\end_layout
+
+\begin_layout Section
+Equilibration
+\end_layout
+
+\begin_layout Itemize
+Equilibrium molecular dynamics provides a constant distribution of properties,
+ be it density, temperature or pressure, across a given part of the system
+ so that the whole system acts in unison, i.e.
+ if the temperature is too low, then it can be adjusted by multiplying all
+ the temperature velocities in the system by the same multiplier.
+ This is where the tunable properties in non-equilibrium molecular dynamics
+ can provide a high degree of control to the system.
+ When a system is not acting in an equilibrium manner, individual variables
+ and localized areas can be changed by a defined value, and another area
+ can be changed by a different amount if the system requires it.
+\end_layout
+
+\end_body
+\end_document

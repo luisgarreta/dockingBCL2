@@ -1,0 +1,86 @@
+* ---- 
+* Built parameters for tmpdVkBNN.mol2 
+*    by user swissdock     Wed Jul 13 01:11:38 CEST 2022 
+* ---- 
+*
+
+BONDS
+CB   CB    401.068     1.3740 
+CB   HCMM  381.853     1.0840 
+CB   OR    404.019     1.3760 
+OR   HOCC  564.143     0.9730 
+CB   C=O   322.985     1.4570 
+C=O  O=C   931.963     1.2220 
+C=O  C=C   328.526     1.4680 
+C=C  C=C   684.039     1.3330 
+C=C  CB    360.335     1.4490 
+C=C  OR    397.254     1.3730 
+C=C  HCMM  372.066     1.0830 
+
+ANGLES
+CB   CB   CB     48.145    119.9770 
+CB   CB   HCMM   40.517    120.5710 
+CB   CB   OR     69.663    116.4950 
+CB   CB   C=O    57.429    114.4750 
+CB   CB   C=C    51.240    119.6950 
+CB   OR   HOCC   52.247    105.4090 
+CB   C=O  O=C    52.823    119.9680 
+CB   C=O  C=C    70.023    112.9350 
+O=C  C=O  C=C    67.360    122.6230 
+CB   C=C  C=O    62.466    119.7580 
+CB   C=C  C=C    43.035    117.5080 
+C=O  C=C  C=C    39.221    111.2970 
+C=C  C=C  OR     80.386    121.2670 
+C=C  C=C  HCMM   38.502    121.0040 
+OR   C=C  HCMM   42.388    108.7570 
+CB   OR   C=C   102.047    110.6940 
+
+DIHEDRALS
+CB   CB   CB   CB       3.500  2   180.00 
+CB   CB   CB   HCMM     3.500  2   180.00 
+CB   CB   OR   HOCC     1.401  2   180.00 
+CB   CB   CB   C=O      3.500  2   180.00 
+CB   CB   OR   C=C      1.600  2   180.00 
+CB   CB   CB   OR       3.500  2   180.00 
+CB   CB   C=O  O=C      1.128  2   180.00 
+CB   CB   C=O  C=C      1.250  2   180.00 
+CB   C=O  C=C  CB       1.250  2   180.00 
+CB   C=O  C=C  C=C      1.250  2   180.00 
+CB   OR   C=C  C=C      1.550  2   180.00 
+CB   OR   C=C  HCMM     1.550  2   180.00 
+CB   C=C  C=O  O=C      1.250  2   180.00 
+CB   C=C  C=C  OR       0.900  2   180.00 
+CB   C=C  C=C  HCMM     0.900  2   180.00 
+CB   CB   C=C  C=O      1.000  2   180.00 
+CB   CB   C=C  C=C      1.000  2   180.00 
+CB   CB   CB   C=C      3.500  2   180.00 
+OR   CB   CB   HCMM     3.500  2   180.00 
+OR   CB   CB   C=O      3.500  2   180.00 
+C=O  C=C  C=C  OR       0.900  2   180.00 
+C=O  C=C  C=C  HCMM     0.900  2   180.00 
+O=C  C=O  C=C  C=C      0.181  1     0.00 
+O=C  C=O  C=C  C=C      0.989  2   180.00 
+C=C  CB   CB   HCMM     1.000  2   180.00 
+HCMM CB   CB   HCMM     3.500  2   180.00 
+
+IMPROPER
+CB   CB   CB   HCMM     1.079  0     0.00 
+CB   CB   CB   OR       3.454  0     0.00 
+CB   CB   CB   C=O      1.943  0     0.00 
+C=O  C=C  CB   O=C      9.356  0     0.00 
+C=C  CB   C=O  C=C      1.439  0     0.00 
+CB   CB   C=C  CB       2.231  0     0.00 
+CB   OR   CB   CB       3.454  0     0.00 
+C=C  OR   C=C  HCMM     1.943  0     0.00 
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch - 
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5 
+CB      0.000000  -0.070000     1.992400    
+OR      0.000000  -0.152100     1.770000    
+C=O     0.000000  -0.110000     2.000000    
+O=C     0.000000  -0.120000     1.700000   0.000000  -0.120000     1.400000    
+C=C     0.000000  -0.068000     2.090000    
+HCMM    0.000000  -0.022000     1.320000    
+HOCC    0.000000  -0.046000     0.224500    
+
+

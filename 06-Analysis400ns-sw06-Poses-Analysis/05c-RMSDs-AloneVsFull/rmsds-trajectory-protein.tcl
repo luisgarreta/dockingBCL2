@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/05-DockingPoses-Analysis-400ns/05c-RMSDs-AloneVsFull/scripts/rmsds-trajectory-protein.tcl

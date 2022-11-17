@@ -1,0 +1,1 @@
+../../../scripts/cat-dcd-from-dir-pattern.py

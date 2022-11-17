@@ -1,0 +1,1 @@
+/home/lg/repos/javerianaMD/simulation/PR-biobb/pdb_2xa0/seqs/2xa0.cif

@@ -1,0 +1,17 @@
+0. Load the protein (pdb)
+1. Remove waters that they interfer with 
+2. Add hydrogens --> Polar only
+3. Grid --> Macromolecule --> Choose --> Select --> pdbqt 
+
+4. Open ligand in pymol
+5. Save as pdb
+
+6. Open ligand in adt (Automatically prepare)
+7. Save ligand as pdbqt: 
+	- Ligand --> Output --> Save as pdbqt
+
+8. Add protein to ligand:
+	- File -> Read molecule --> select .pdbqt
+
+9. Grid formation:
+	Grid --> Grid box

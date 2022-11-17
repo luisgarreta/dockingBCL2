@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/load_pdbs_in_pymol.py

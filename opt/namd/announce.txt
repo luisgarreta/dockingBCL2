@@ -1,0 +1,59 @@
++--------------------------------------------------------------------+
+|                                                                    |
+|                NAMD 2.15alpha2 Release Announcement                |
+|                                                                    |
++--------------------------------------------------------------------+
+
+                                                       August 10, 2020
+
+The Theoretical and Computational Biophysics Group at the University of
+Illinois is proud to announce the public release of a new version of
+NAMD, a parallel, object-oriented molecular dynamics code designed for
+high-performance simulation of large biomolecular systems.  NAMD is
+distributed free of charge and includes source code.  NAMD development
+is supported by the NIH National Institute of General Medical Sciences
+through grant number NIH P41-GM104601.
+
+NAMD 2.15alpha2 has many advantages over NAMD 2.14, including:
+
+- Non-bonded tiles kernel optimized for Intel AVX-512 vectorization
+
+  - Achieves speedup of up to 1.8x on Intel Xeon over AVX2 builds
+
+  - Exhibits good scaling on Frontera supercomputer
+
+- Update to Charm++ 7.0.0, enabling:
+
+  - Updated implementation of atomics, locks, and fences to use
+    C++11/C11 versions where suitable
+
+  - Improved performance, support, and fixes for UCX
+
+  - Improved scaling on InfiniBand via ucx network layer
+
+  - Improved multi-copy on POWER via pamilrts network layer
+
+  - Clean exit with non-zero status for many failures
+
+- Support for CUDA versions 8.0-11.x on Kepler or newer GPUs
+
+- Support for compatible AMD GPUs via HIP
+
+
+Details at http://www.ks.uiuc.edu/Research/namd/2.15/features.html
+
+NAMD is available from http://www.ks.uiuc.edu/Research/namd/
+
+For your convenience, NAMD has been ported to and will be installed
+on the machines at the NSF-sponsored national supercomputing centers.
+If you are planning substantial simulation work of an academic nature
+you should apply for these resources.  Benchmarks for your proposal
+are available at http://www.ks.uiuc.edu/Research/namd/performance.html
+
+The Theoretical and Computational Biophysics Group encourages NAMD users
+to be closely involved in the development process through reporting
+bugs, contributing fixes, periodical surveys and via other means.
+Questions or comments may be directed to namd@ks.uiuc.edu.
+
+We are eager to hear from you, and thank you for using our software!
+

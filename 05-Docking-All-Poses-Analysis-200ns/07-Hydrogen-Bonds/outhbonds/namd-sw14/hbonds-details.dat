@@ -1,0 +1,17 @@
+Found 15 hbonds.
+donor 		 acceptor 	 occupancy
+LIG1-Side 	 ASP176-Side 	 0.05%
+ASN175-Side 	 LIG1-Side 	 0.70%
+SER28-Side 	 LIG1-Main 	 0.20%
+LIG1-Main 	 SER28-Side 	 0.55%
+SER2-Side 	 LIG1-Side 	 0.15%
+LIG1-Main 	 ASP29-Side 	 0.90%
+LIG1-Side 	 SER2-Side 	 0.05%
+SER164-Side 	 LIG1-Main 	 0.10%
+LIG1-Main 	 SER164-Side 	 0.05%
+THR172-Side 	 LIG1-Side 	 0.05%
+ARG6-Side 	 LIG1-Side 	 0.05%
+LIG1-Side 	 ASP29-Side 	 0.15%
+GLN3-Side 	 LIG1-Side 	 0.05%
+LIG1-Main 	 GLN3-Side 	 0.05%
+LIG1-Side 	 ASN33-Main 	 0.05%

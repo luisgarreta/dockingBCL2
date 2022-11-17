@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/average_binding_energies_table.R

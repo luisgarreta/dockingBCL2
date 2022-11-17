@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/rmsd-trajectory-ligand.tcl

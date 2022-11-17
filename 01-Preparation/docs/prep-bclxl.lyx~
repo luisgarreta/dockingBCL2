@@ -1,0 +1,468 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Prepare Structure Bcl-xL
+\end_layout
+
+\begin_layout Section
+Protocol
+\end_layout
+
+\begin_layout Standard
+We constructed the anchored Bcl-xL by following similar stes from 
+\end_layout
+
+\begin_layout Subsection
+Protocol for construction of anchored Bcl-xl [Tyagi2021]
+\end_layout
+
+\begin_layout Itemize
+A model of the full-length Bcl-xL protein in a membrane-anchored configuration
+ was constructed by combining two solution NMR structures: one lacking the
+ C-terminal helix (PDB ID: 1LXL; residues 1–222) [29] and another of the
+ isolated C-terminal helix (PDB ID: 6F46; helix α8, residues 209–231) [30].
+ 
+\end_layout
+
+\begin_layout Itemize
+After aligning the C-terminal helix along the Cartesian z-axis, the two
+ structures were superimposed and joined at residue Gln-207 to generate
+ a model for the membrane anchored full-length Bcl-xL, where the C-terminal
+ helix is in a transmembrane orientation.
+ 
+\end_layout
+
+\begin_layout Itemize
+For each simulation, Bcl-xL was anchored into the membrane by embedding
+ the C-terminal helix in the lipid bilayer such that the Trp-213 residue
+ was just below the lipid phosphate groups and the soluble folded domain
+ was within 4 Å of the membrane surface.
+ 
+\end_layout
+
+\begin_layout Itemize
+The membrane-anchored Bcl-xL model was incorporated into four different
+ simulation systems, each with one of two protein protonation states to
+ which all Bcl-xL acidic and histidine residue sidechains were protonated
+ or unprotonated (hereafter identified as protonated or deprotonated configurati
+ons, respectively); and one of two membrane compositions: 100% 1-palmitoyl-2-ole
+oyl-sn-glycero-3-phosphocholine (POPC) or POPC at a 2:1 ratio with 1,1,2,2,-tetr
+aoleoyl-cardiolipin (2POPC:1TOCL).
+\end_layout
+
+\begin_layout Description
+The simulation system setup was performed with CHARMM-GUI [31–37].
+ All simulations are summarized in Table 1.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Simulated System
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Protonation State Protonated Bcl-xL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Membrane Composition POPC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Bcl-xL with 50 mM NaCl Bcl-xL with 50 mM NaCl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Unprotonated Bcl-xL Protonated Bcl-xL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+POPC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Bcl-xL with neutralizing NaCl Bcl-xL with neutralizing NaCl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Unprotonated Bcl-xL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2:1 POPC:TOCL 2:1 POPC:TOCL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Protonation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Membrane
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+The
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+For the unprotonated 100% POPC simulation, Bcl-xL was embedded in a lipid
+ bilayer consisting of 411 POPC, both solvated with 36,055 water molecules
+ and neutralized with 50 mM excess NaCl (43 Na + , 32 Cl − ), for a total
+ of 166,907 atoms and an initial simulation cell size of 129.9 Å × 129.3 Å
+ × 124.8 Å.
+ 
+\end_layout
+
+\begin_layout Itemize
+For the protonated 100% POPC simulation, Bcl-xL was embedded in a lipid
+ bilayer consisting of 412 POPC, both solvated with 36,094 water molecules
+ and neutralized, and with 50 mM excess NaCl (32 Na+ , 56 Cl−), for a total
+ of 167,206 atoms and an initial simulation cell size of 130.0 Å × 128.1 Å
+ × 125.0 Å.
+ 
+\end_layout
+
+\begin_layout Itemize
+Similarly, for the unprotonated 2:1 POPC:TOCL simulation, Bcl-xL was embedded
+ in a lipid bilayer consisting of 239 POPC and 120 TOCL, both solvated with
+ 46,584 water molecules and neutralizing Na+ (131 Na+ ), for a total of
+ 205,383 atoms and an initial simulation cell size of 151.1 Å × 143.3 Å ×
+ 129.4 Å.
+ 
+\end_layout
+
+\begin_layout Itemize
+For the protonated 2:1 POPC:TOCL simulation, Bcl-xL was embedded in a lipid
+ bilayer consisting of 239 POPC and 120 TOCL, both solvated with 46,586
+ water molecules and neutralizing Na+ (96 Na+), for a total of 205,389 atoms
+ and an initial simulation cell size of 150.6 Å × 157.9 Å × 127.3 Å.
+ 
+\end_layout
+
+\end_body
+\end_document

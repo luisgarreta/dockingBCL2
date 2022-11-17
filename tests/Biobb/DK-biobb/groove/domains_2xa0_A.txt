@@ -1,0 +1,7 @@
+# Domains taken from The Jena Library of Biological Macromolecules (JenaLib)
+# http://jenalib.leibniz-fli.de/cgi-bin/ImgLib.pl?CODE=2xa0&EXPAND=alignment&MODE=dynamic&WIDTH=&INDEX=10&FULL_UNIPROT=complete&PFAM_MAP_SHOW=on
+# There are two entries for BH4: BH4_1 and BH4_2
+BH1 137 155 10 LFRDGVNWGRIVAFFEFGG
+BH2 188 199 10 WIQDNGGWDAFV
+BH3 93 107 10 VHLTLRQAGDDFSRR
+BH4 10 30 10 DNREIVMKYIHYKLSQRGYEW

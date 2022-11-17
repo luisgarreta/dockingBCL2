@@ -1,0 +1,507 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Docking Protein-Ligand 
+\begin_inset Newline newline
+\end_inset
+
+(Bcl-xl in complex with Genistein)
+\end_layout
+
+\begin_layout Section
+Get aminoacids forming the hydrophobic groove
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/hydrophobicGroove-bclxl.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Helices forming the hydrophobic groove 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Renault2017"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Bcl-xl helices (PDB 1lxl):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+HELIX 1: GLU A 7 LYS A 20 
+\end_layout
+
+\begin_layout Itemize
+HELIX 2: ALA A 85 GLU A 98 
+\end_layout
+
+\begin_layout Itemize
+HELIX 3: PHE A 105 LEU A 112 
+\end_layout
+
+\begin_layout Itemize
+HELIX 4: TYR A 120 PHE A 131 
+\end_layout
+
+\begin_layout Itemize
+HELIX 5: TRP A 137 VAL A 155 
+\end_layout
+
+\begin_layout Itemize
+HELIX 6: VAL A 163 GLU A 184 
+\end_layout
+
+\begin_layout Itemize
+HELIX 7: TRP A 188 LEU A 194
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Get initial input system
+\end_layout
+
+\begin_layout Itemize
+Receptor:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It was taken as the last 20ns simulation frame using the script 
+\begin_inset Quotes eld
+\end_inset
+
+get-pdb-frame.tcl
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Receptor was converted to 
+\begin_inset Quotes eld
+\end_inset
+
+pdbqt
+\begin_inset Quotes erd
+\end_inset
+
+ using obabel
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ligand was taken from PDB database (search 
+\begin_inset Quotes eld
+\end_inset
+
+Genistein
+\begin_inset Quotes erd
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Structure data file was downloaded as 
+\begin_inset Quotes eld
+\end_inset
+
+ligand.sdf
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Prepare system using autodock tools
+\end_layout
+
+\begin_layout Itemize
+Receptor was prepared using autodock tools:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.youtube.com/watch?v=rVXrbTeaywc
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Read receptor.
+\end_layout
+
+\begin_layout Itemize
+Check missing atoms.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Repair missing atoms.
+\end_layout
+
+\begin_layout Itemize
+Save changes as 
+\begin_inset Quotes eld
+\end_inset
+
+2 sets
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Add hydrogens, polar only.
+\end_layout
+
+\begin_layout Itemize
+Add Kollman charges:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Check totals on residues
+\end_layout
+
+\begin_layout Itemize
+Spread charges Deficits over all atoms in residue.
+\end_layout
+
+\begin_layout Itemize
+Again, check totals on residues.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Prepare ligand:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Open ligand in pdbqt format.
+\end_layout
+
+\begin_layout Itemize
+Detect torsion tree root node.
+\end_layout
+
+\begin_layout Itemize
+Charges and hydrogens are added automatically to ligand.
+\end_layout
+
+\begin_layout Itemize
+Check and set number of torsions (to 4)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Setup the grid box:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From Grid select Macromolecule, choose protein, save as pdbqt
+\end_layout
+
+\begin_layout Itemize
+Receptor grid was created: Grid, Macromolecule, Choose receptor
+\end_layout
+
+\begin_layout Itemize
+Ligand frid was created: Grid, Set map types, Choose ligand
+\end_layout
+
+\begin_layout Itemize
+Grid box was created by calculating the geometric center of atom positions
+ from helices forming the hydrophobic groove (h3, h4, and h5) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lee2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/grid-box.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grid box around Bcl-xl (PDB 1lxl) using autodock tools.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+The α5 and α6 helices form a central hairpin surrounded on either side by
+ the other helices; (b) Surface representation of apo BCL-XL demonstrating
+ the canonical hydrophobic binding groove created mainly by helices α3 and
+ α4 with α5 forming the base, which is critical for mediating interactions
+ with the pro-apoptotic proteins of the BCL-2 family;
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Grid parameters file (.gpf) was saved.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Prepare Protein-Ligand Complex for MD
+\end_layout
+
+\begin_layout Enumerate
+Add resulting ligand model to prepared receptor:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Paste ligand model from output results (qvina outputs) to pdbqt receptor
+ file.
+\end_layout
+
+\begin_layout Enumerate
+Convert new file to pdb format (using adt tools).
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Selection of best ligand pose
+\end_layout
+
+\begin_layout Standard
+The following processes are performed in order to select the best ligand
+ poses that will be used for performing long MD simulations.
+ 
+\end_layout
+
+\begin_layout Subsection
+Get trajectories from output MD simulations
+\end_layout
+
+\begin_layout Standard
+Trajectory information is extracted from each MD simulation of ligand poses.
+ This information will be used for following process: calculating binding
+ free energies and creating trajectory movies.
+\end_layout
+
+\begin_layout Subsection
+Calculating binding free energies
+\end_layout
+
+\begin_layout Standard
+Binding free energies of protein-ligand complexes are estimated by re-scoring
+ of docking poses.
+ The re-scoring is estimated using two force field functions from autodock4
+ and vina tools.
+ For each 1 ns MD simulation of docking poses, we extract snapshots (protein-lig
+and complex) every 5000ps, and each complex is re-scored with the two force
+ field functions to finally set the average binding energy as the average
+ of the re-scoring of each complex.
+\end_layout
+
+\begin_layout Standard
+The trajectory snapshots are extracted with a VMD script and the binding
+ free energies are calculated with a Python script that executes the autodock4
+ and vina re-scoring on each snapshot.
+ Results are saved in a tables in CSV format with each ligand and its calculated
+ binding energies (autodock4, vina, and their average).
+\end_layout
+
+\begin_layout Subsection
+Creating trajectory movies
+\end_layout
+
+\begin_layout Standard
+Trajectory movies are created for each trajectory obtained from the 1 ns
+ MD simulation of the preselected ligands with the protein receptor.
+ Frames are extracted as images from each trajectory using a VMD script,
+ then the movie is created using a movie library with a Python script.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "puj-simulacion"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

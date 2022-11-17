@@ -1,0 +1,8 @@
+{
+  "centerX": -2.0,
+  "centerY": -17.0,
+  "centerZ": -42.0,
+  "sizeX": 100,
+  "sizeY": 100,
+  "sizeZ": 100
+}

@@ -1,0 +1,787 @@
+>>> Calculating RMSDs..
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info) Multithreading available, 4 CPUs detected.
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 14GB (94%)
+Info) Free system memory: 14GB (94%)
+Info) Free system memory: 14GB (94%)
+Info) Free system memory: 14GB (94%)
+Info) No CUDA accelerator devices available.
+Info) No CUDA accelerator devices available.
+Info) No CUDA accelerator devices available.
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) Dynamically loaded 2 plugins in directory:
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+after#0
+after#0
+after#0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-003.dcd
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/protein-complex-REF.pdb
+trajectory1000ns-Complex/step7-DCD-001.dcd
+trajectory1000ns-Complex/step7-DCD-004.dcd
+out-trajectory1000ns-Complex/rmsd-step7-DCD-003.csv
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/protein-complex-REF.pdb
+trajectory1000ns-Complex/protein-complex-REF.pdb
+trajectory1000ns-Complex/step7-DCD-002.dcd
+out-trajectory1000ns-Complex/rmsd-step7-DCD-004.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-001.csv
+trajectory1000ns-Complex/protein-complex-REF.pdb
+out-trajectory1000ns-Complex/rmsd-step7-DCD-002.csv
+trajectory1000ns-Complex/step7-DCD-003.dcd-RMSD.csv
+trajectory1000ns-Complex/step7-DCD-001.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-003.csv
+trajectory1000ns-Complex/step7-DCD-004.dcd-RMSD.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-003.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-001.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-004.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-004.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-001.csv
+trajectory1000ns-Complex/step7-DCD-002.dcd-RMSD.csv
+file4
+out-trajectory1000ns-Complex/rmsd-step7-DCD-002.csv
+file4
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-002.csv
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Residues: 80103
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Waters: 78605
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Residues: 80103
+Info)    Segments: 5
+Info)    Waters: 78605
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-003.dcd
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+Info)    Residues: 80103
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-004.dcd
+Info)    Waters: 78605
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-001.dcd
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-002.dcd
+Info) Coordinate I/O rate 212.7 frames/sec, 851 MB/sec, 4.7 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-001.dcd.
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+1000
+Number of frames: 1000 
+protein and backbone and noh
+atomselect0
+atomselect1
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-001.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-001.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (76%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-005.dcd
+trajectory1000ns-Complex/protein-complex-REF.pdb
+out-trajectory1000ns-Complex/rmsd-step7-DCD-005.csv
+trajectory1000ns-Complex/step7-DCD-005.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-005.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-005.csv
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-005.dcd
+Info) Coordinate I/O rate 21.9 frames/sec, 87 MB/sec, 45.6 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-003.dcd.
+Info) Coordinate I/O rate 21.9 frames/sec, 87 MB/sec, 45.7 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-004.dcd.
+Info) Coordinate I/O rate 21.4 frames/sec, 85 MB/sec, 46.7 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-002.dcd.
+0
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+1000
+1000
+Number of frames: 1000 
+Number of frames: 1000 
+protein and backbone and noh
+protein and backbone and noh
+atomselect0
+atomselect0
+atomselect1
+atomselect1
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+1000
+Number of frames: 1000 
+protein and backbone and noh
+atomselect0
+atomselect1
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > vmd > --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-004.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-004.csv
+rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-003.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-003.csv
+rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-002.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-002.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) Coordinate I/O rate 20.4 frames/sec, 81 MB/sec, 49.1 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-005.dcd.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 11GB (68%)
+Info) Free system memory: 11GB (68%)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 11GB (68%)
+Info) No CUDA accelerator devices available.
+Info) No CUDA accelerator devices available.
+Info) No CUDA accelerator devices available.
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+1000
+Number of frames: 1000 
+protein and backbone and noh
+atomselect0
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+atomselect1
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+after#0
+after#0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-006.dcd
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/protein-complex-REF.pdb
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+out-trajectory1000ns-Complex/rmsd-step7-DCD-006.csv
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-007.dcd
+trajectory1000ns-Complex/step7-DCD-008.dcd
+trajectory1000ns-Complex/protein-complex-REF.pdb
+trajectory1000ns-Complex/protein-complex-REF.pdb
+out-trajectory1000ns-Complex/rmsd-step7-DCD-007.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-008.csv
+trajectory1000ns-Complex/step7-DCD-006.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-006.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-006.csv
+file4
+trajectory1000ns-Complex/step7-DCD-007.dcd-RMSD.csv
+trajectory1000ns-Complex/step7-DCD-008.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-007.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-007.csv
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+out-trajectory1000ns-Complex/rmsd-step7-DCD-008.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-008.csv
+file4
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-005.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-005.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 14GB (94%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-009.dcd
+trajectory1000ns-Complex/protein-complex-REF.pdb
+out-trajectory1000ns-Complex/rmsd-step7-DCD-009.csv
+trajectory1000ns-Complex/step7-DCD-009.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-009.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-009.csv
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-007.dcd
+Info)    Residues: 80103
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-008.dcd
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-006.dcd
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-009.dcd
+Info) Coordinate I/O rate 18.7 frames/sec, 75 MB/sec, 53.4 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-008.dcd.
+Info) Coordinate I/O rate 18.2 frames/sec, 73 MB/sec, 54.8 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-006.dcd.
+Info) Coordinate I/O rate 18.0 frames/sec, 72 MB/sec, 55.4 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-007.dcd.
+Info) Coordinate I/O rate 18.1 frames/sec, 72 MB/sec, 55.3 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-009.dcd.
+0
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+0
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+1000
+Number of frames: 1000 
+0
+protein and backbone and noh
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+atomselect0
+1000
+Number of frames: 1000 
+protein and backbone and noh
+atomselect0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+1000
+1000
+Number of frames: 1000 
+Number of frames: 1000 
+protein and backbone and noh
+protein and backbone and noh
+atomselect0
+atomselect0
+atomselect1
+atomselect1
+atomselect1
+atomselect1
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+--------------------------------------------------------------------------
+Info) Exiting normally.
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > vmd > --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > vmd > rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-009.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-009.csv
+rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-008.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-008.csv
+rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-006.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-006.csv
+rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-007.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-007.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 15GB (94%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+trajectory1000ns-Complex/step5_input.psf
+trajectory1000ns-Complex/step7-DCD-010.dcd
+trajectory1000ns-Complex/protein-complex-REF.pdb
+out-trajectory1000ns-Complex/rmsd-step7-DCD-010.csv
+trajectory1000ns-Complex/step7-DCD-010.dcd-RMSD.csv
+out-trajectory1000ns-Complex/rmsd-step7-DCD-010.csv
+Writing RMSDs into file: out-trajectory1000ns-Complex/rmsd-step7-DCD-010.csv
+file4
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trajectory1000ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trajectory1000ns-Complex/step7-DCD-010.dcd
+Info) Coordinate I/O rate 81.1 frames/sec, 324 MB/sec, 7.3 sec
+Info) Finished with coordinate file trajectory1000ns-Complex/step7-DCD-010.dcd.
+0
+Info) Using plugin pdb for structure file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Using plugin pdb for coordinates from file trajectory1000ns-Complex/protein-complex-REF.pdb
+Info) Determining bond structure from distance search ...
+Info) Analyzing structure ...
+Info)    Atoms: 925
+Info)    Bonds: 924
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 231
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 1   Protein: 1   Nucleic: 0
+Info) Finished with coordinate file trajectory1000ns-Complex/protein-complex-REF.pdb.
+1
+596
+Number of frames: 596 
+protein and backbone and noh
+atomselect0
+atomselect1
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > rmsds-trajectory-ref.tcl trajectory1000ns-Complex/step5_input.psf trajectory1000ns-Complex/step7-DCD-010.dcd trajectory1000ns-Complex/protein-complex-REF.pdb out-trajectory1000ns-Complex/rmsd-step7-DCD-010.csv
+  FRAME         RMSD
+1     1 0.0004948141
+2     2 1.8177162409
+3     3 2.0319051743
+4     4 1.9320094585
+5     5 2.8368208408
+6     6 3.2832350731
+  FRAME SYSTEM         RMSD
+1     1   RMSD 0.0004948141
+2     2   RMSD 1.8177162409
+3     3   RMSD 2.0319051743
+4     4   RMSD 1.9320094585
+5     5   RMSD 2.8368208408
+6     6   RMSD 3.2832350731
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-001.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-002.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-003.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-004.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-005.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-006.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-007.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-008.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-009.csv
+>>>  out-trajectory1000ns-Complex/rmsd-step7-DCD-010.csv
+>>> format-wide2long.R out-trajectory1000ns-Complex/out-trajectory1000ns-Complex.csv FRAME SYSTEM RMSD 
+>>> plot-XY-MultiLine.R out-trajectory1000ns-Complex/out-trajectory1000ns-Complex-LONG.csv FRAME RMSD SYSTEM 'RMSD for complex ' 'FRAME (ns)'

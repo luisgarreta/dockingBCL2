@@ -1,0 +1,6 @@
+2022-04-27 17:16:14,221 [MainThread  ] [INFO ]  Value  is not compatible as a coordinates value
+2022-04-27 17:16:14,222 [MainThread  ] [INFO ]  Not using any container
+2022-04-27 17:16:14,264 [MainThread  ] [INFO ]  obabel -ipdbqt output_model.pdbqt -opdb -Ooutput_model.pdb  
+
+2022-04-27 17:16:14,265 [MainThread  ] [INFO ]  Exit code 0
+

@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/simulations/scripts/create_binding_energies_table.py

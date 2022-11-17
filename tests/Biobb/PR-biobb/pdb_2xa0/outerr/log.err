@@ -1,0 +1,80 @@
+2022-05-04 17:52:07,741 [MainThread  ] [INFO ]                       :-) GROMACS - gmx pdb2gmx, 2019.1 (-:
+
+Executable:   /opt/miniconda3/envs/biobb_env/bin/gmx
+Data prefix:  /opt/miniconda3/envs/biobb_env
+Working dir:  /home/lg/repos/javerianaMD/simulation/PR-biobb/pdb_2xa0
+Command line:
+  gmx -nobackup -nocopyright pdb2gmx -f fixed.pdb -o protein_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.r2b
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/dna.r2b
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/rna.r2b
+All occupancies are one
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/atomtypes.atp
+Atomtype 1Atomtype 2Atomtype 3Atomtype 4Atomtype 5Atomtype 6Atomtype 7Atomtype 8Atomtype 9Atomtype 10Atomtype 11Atomtype 12Atomtype 13Atomtype 14Atomtype 15Atomtype 16Atomtype 17Atomtype 18Atomtype 19Atomtype 20Atomtype 21Atomtype 22Atomtype 23Atomtype 24Atomtype 25Atomtype 26Atomtype 27Atomtype 28Atomtype 29Atomtype 30Atomtype 31Atomtype 32Atomtype 33Atomtype 34Atomtype 35Atomtype 36Atomtype 37Atomtype 38Atomtype 39Atomtype 40Atomtype 41Atomtype 42Atomtype 43Atomtype 44Atomtype 45Atomtype 46Atomtype 47Atomtype 48Atomtype 49Atomtype 50Atomtype 51Atomtype 52Atomtype 53Atomtype 54Atomtype 55Atomtype 56Atomtype 57Atomtype 58Atomtype 59Atomtype 60Atomtype 61Atomtype 62Atomtype 63Atomtype 64Atomtype 65Atomtype 66Atomtype 67
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.rtp
+Residue 1Residue 2Residue 3Residue 4Residue 5Residue 6Residue 7Residue 8Residue 9Residue 10Residue 11Residue 12Residue 13Residue 14Residue 15Residue 16Residue 17Residue 18Residue 19Residue 20Residue 21Residue 22Residue 23Residue 24Residue 25Residue 26Residue 27Residue 28Residue 29Residue 30Residue 31Residue 32Residue 33Residue 34Residue 35Residue 36Residue 37Residue 38Residue 39Residue 40Residue 41Residue 42Residue 43Residue 44Residue 45Residue 46Residue 47Residue 48Residue 49Residue 50Residue 51Residue 52Residue 53Residue 54Residue 55Residue 56Residue 57Residue 58Residue 59Residue 60Residue 61Residue 62Residue 63Residue 64Residue 65Residue 66Residue 67Residue 68Residue 69Residue 70Residue 71Residue 72Residue 73Residue 74Residue 75Residue 76Residue 77Residue 78Residue 79Residue 80Residue 81Residue 82Residue 83Residue 84Residue 85Residue 86Residue 87Residue 88Residue 89Residue 90Residue 91Residue 92Residue 93
+Sorting it all out...
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/dna.rtp
+Residue 94Residue 95Residue 96Residue 97Residue 98Residue 99Residue 100Residue 101Residue 102Residue 103Residue 104Residue 105Residue 106Residue 107Residue 108Residue 109
+Sorting it all out...
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/rna.rtp
+Residue 110Residue 111Residue 112Residue 113Residue 114Residue 115Residue 116Residue 117Residue 118Residue 119Residue 120Residue 121Residue 122Residue 123Residue 124Residue 125
+Sorting it all out...
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.hdb
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/dna.hdb
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/rna.hdb
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.n.tdb
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 303 donors and 279 acceptors were found.
+There are 395 hydrogen bonds
+Will use HISE for residue 20
+Will use HISE for residue 55
+Will use HISE for residue 58
+Will use HISE for residue 94
+Will use HISE for residue 120
+Will use HISE for residue 184
+Will use HISE for residue 186
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                   MET16   HIS20   HIS55   HIS58   HIS94  MET115  HIS120
+                    SD61  NE2101  NE2349  NE2373  NE2618   SD799  NE2839
+   HIS20  NE2101   1.001
+   HIS55  NE2349   5.998   5.758
+   HIS58  NE2373   6.761   6.429   1.007
+   HIS94  NE2618   1.071   1.232   4.949   5.706
+  MET115   SD799   1.962   2.045   5.907   6.730   2.205
+  HIS120  NE2839   2.751   2.865   7.160   7.973   3.330   1.302
+  MET157  SD1135   1.543   1.938   6.516   7.347   2.194   0.905   1.278
+  CYS158  SG1142   0.947   1.214   6.225   7.007   1.650   1.164   1.823
+  MET166  SD1206   1.924   2.082   7.294   8.066   2.792   1.645   1.299
+  MET177  SD1293   0.912   1.466   5.927   6.753   1.416   1.149   2.031
+  HIS184 NE21359   1.848   2.720   6.449   7.359   2.297   2.014   2.534
+  HIS186 NE21377   1.759   2.563   5.440   6.328   1.594   2.576   3.535
+  MET206  SD1537   2.146   1.956   4.011   4.800   1.301   2.084   3.373
+                  MET157  CYS158  MET166  MET177  HIS184  HIS186
+                  SD1135  SG1142  SD1206  SD1293 NE21359 NE21377
+  CYS158  SG1142   0.731
+  MET166  SD1206   1.024   1.158
+  MET177  SD1293   0.801   0.572   1.598
+  HIS184 NE21359   1.506   1.792   2.321   1.346
+  HIS186 NE21377   2.345   2.225   3.182   1.698   1.371
+  MET206  SD1537   2.568   2.217   3.294   1.977   2.872   2.271
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/aminoacids.arn
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/dna.arn
+Opening force field file /opt/miniconda3/envs/biobb_env/share/gromacs/top/amber99sb-ildn.ff/rna.arn
+
+-------------------------------------------------------
+Program:     gmx pdb2gmx, version 2019.1
+Source file: src/gromacs/gmxpreprocess/pdb2gmx.cpp (line 745)
+
+Fatal error:
+Atom CA in residue ACE 9 was not found in rtp entry ACE with 6 atoms
+while sorting atoms.
+.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+

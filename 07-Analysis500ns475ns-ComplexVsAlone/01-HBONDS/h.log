@@ -1,0 +1,396 @@
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (79%)
+Info) No CUDA accelerator devices available.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (79%)
+Info) No CUDA accelerator devices available.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 12GB (79%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+ERROR) No molecules loaded.mol operates on one molecule only.
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+ERROR) No molecules loaded.mol operates on one molecule only.
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+after#0
+after#0
+1.2
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-002.dcd
+1.2
+hbonds.csv
+>>>
+trj500ns-Complex/step5_input.psf
+4
+trj500ns-Complex/dcd-DCD-003.dcd
+trj500ns-Complex/step5_input.psf
+hbonds.csv
+trj500ns-Complex/dcd-DCD-002.dcd
+>>>
+outs/rg-dcd-DCD-002.csv
+4
+
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-003.dcd
+1.2
+outs/rg-dcd-DCD-003.csv
+outs/rg-dcd-DCD-002.csv
+
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-001.dcd
+outs/rg-dcd-DCD-003.csv
+hbonds.csv
+trj500ns-Complex/step5_input.psf
+>>>
+4
+trj500ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trj500ns-Complex/step5_input.psf
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-001.dcd
+outs/rg-dcd-DCD-001.csv
+
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trj500ns-Complex/step5_input.psf
+outs/rg-dcd-DCD-001.csv
+trj500ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trj500ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trj500ns-Complex/dcd-DCD-002.dcd
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+Info)    Segments: 5
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trj500ns-Complex/dcd-DCD-003.dcd
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trj500ns-Complex/dcd-DCD-001.dcd
+Info) Coordinate I/O rate 35.4 frames/sec, 141 MB/sec, 28.2 sec
+Info) Finished with coordinate file trj500ns-Complex/dcd-DCD-002.dcd.
+0
+H-Bonds Plugin, Version 1.1
+Wed Oct 19 12:22:07 -05 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: segname PROA
+- Atomselection 2: segid HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 999
+- Donor-Acceptor distance: 3.0
+- Angle cutoff: 20
+- Type: all
+- Write a file with H bond/frame data: yes
+- Filename: hbonds.dat
+- Details output file: hbonds-details.dat
+
+Info) Coordinate I/O rate 35.2 frames/sec, 140 MB/sec, 28.4 sec
+Info) Finished with coordinate file trj500ns-Complex/dcd-DCD-003.dcd.
+0
+H-Bonds Plugin, Version 1.1
+Wed Oct 19 12:22:08 -05 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: segname PROA
+- Atomselection 2: segid HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 999
+- Donor-Acceptor distance: 3.0
+- Angle cutoff: 20
+- Type: all
+- Write a file with H bond/frame data: yes
+- Filename: hbonds.dat
+- Details output file: hbonds-details.dat
+
+Info) Coordinate I/O rate 34.9 frames/sec, 139 MB/sec, 28.6 sec
+Info) Finished with coordinate file trj500ns-Complex/dcd-DCD-001.dcd.
+0
+H-Bonds Plugin, Version 1.1
+Wed Oct 19 12:22:08 -05 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: segname PROA
+- Atomselection 2: segid HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 999
+- Donor-Acceptor distance: 3.0
+- Angle cutoff: 20
+- Type: all
+- Write a file with H bond/frame data: yes
+- Filename: hbonds.dat
+- Details output file: hbonds-details.dat
+
+Printing frame/hbond data to file... Done.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Printing frame/hbond data to file... Done.
+hbonds-trajectory.tcl trj500ns-Complex/step5_input.psf trj500ns-Complex/dcd-DCD-002.dcd outs/rg-dcd-DCD-002.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 4728MB (30%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > after#0
+1.2
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-004.dcd
+hbonds.csv
+>>>
+4
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-004.dcd
+outs/rg-dcd-DCD-004.csv
+
+outs/rg-dcd-DCD-004.csv
+trj500ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trj500ns-Complex/step5_input.psf
+hbonds-trajectory.tcl trj500ns-Complex/step5_input.psf trj500ns-Complex/dcd-DCD-001.dcd outs/rg-dcd-DCD-001.csv
+/usr/local/lib/vmd/vmd_LINUXAMD64: /lib/x86_64-linux-gnu/libGL.so.1: no version information available (required by /usr/local/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 4 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA 
+Info) Free system memory: 9GB (55%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 2 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/
+/usr/local/lib/vmd/scripts/tcl8.5 /usr/local/lib/vmd/scripts /usr/local/lib/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /usr/local/lib/vmd/scripts/vmd /usr/local/lib/vmd/plugins/LINUXAMD64/tcl /usr/local/lib/vmd/plugins/noarch/tcl /home/lg/BIO/omicas/simulations/opt/vmdplugins/orient/ /home/lg/BIO/omicas/simulations/opt/vmdplugins/la1.0/
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.
+ERROR) No molecules loaded.mol operates on one molecule only.
+ERROR) No molecules loaded.mol operates on one molecule only.
+after#0
+1.2
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-005.dcd
+hbonds.csv
+>>>
+4
+trj500ns-Complex/step5_input.psf
+trj500ns-Complex/dcd-DCD-005.dcd
+outs/rg-dcd-DCD-005.csv
+
+outs/rg-dcd-DCD-005.csv
+trj500ns-Complex/step5_input.psf
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file trj500ns-Complex/step5_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trj500ns-Complex/dcd-DCD-004.dcd
+Info) Analyzing structure ...
+Info)    Atoms: 350107
+Info)    Bonds: 348886
+Info)    Angles: 295756  Dihedrals: 302460  Impropers: 2290  Cross-terms: 229
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 80103
+Info)    Waters: 78605
+Info)    Segments: 5
+Info)    Fragments: 79873   Protein: 1   Nucleic: 0
+0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file trj500ns-Complex/dcd-DCD-005.dcd
+Printing frame/hbond data to file... Done.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > hbonds-trajectory.tcl trj500ns-Complex/step5_input.psf trj500ns-Complex/dcd-DCD-003.dcd outs/rg-dcd-DCD-003.csv
+Info) Coordinate I/O rate 57.1 frames/sec, 228 MB/sec, 17.5 sec
+Info) Finished with coordinate file trj500ns-Complex/dcd-DCD-004.dcd.
+0
+H-Bonds Plugin, Version 1.1
+Wed Oct 19 12:22:59 -05 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: segname PROA
+- Atomselection 2: segid HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 999
+- Donor-Acceptor distance: 3.0
+- Angle cutoff: 20
+- Type: all
+- Write a file with H bond/frame data: yes
+- Filename: hbonds.dat
+- Details output file: hbonds-details.dat
+
+Info) Coordinate I/O rate 56.5 frames/sec, 226 MB/sec, 17.7 sec
+Info) Finished with coordinate file trj500ns-Complex/dcd-DCD-005.dcd.
+0
+H-Bonds Plugin, Version 1.1
+Wed Oct 19 12:23:00 -05 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: segname PROA
+- Atomselection 2: segid HETA
+- Update selections every frame: yes
+- Initial frame: 0
+- Frame step: 1
+- Final frame: 999
+- Donor-Acceptor distance: 3.0
+- Angle cutoff: 20
+- Type: all
+- Write a file with H bond/frame data: yes
+- Filename: hbonds.dat
+- Details output file: hbonds-details.dat
+
+Printing frame/hbond data to file... Done.
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > Printing frame/hbond data to file... Done.
+hbonds-trajectory.tcl trj500ns-Complex/step5_input.psf trj500ns-Complex/dcd-DCD-004.dcd outs/rg-dcd-DCD-004.csv
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) Exiting normally.
+vmd > hbonds-trajectory.tcl trj500ns-Complex/step5_input.psf trj500ns-Complex/dcd-DCD-005.dcd outs/rg-dcd-DCD-005.csv
+>>>  outs/rg-dcd-DCD-001.csv
+  FRAME HBONDS
+1     1      0
+2     2      0
+3     3      0
+4     4      0
+5     5      0
+6     6      0
+  FRAME SYSTEM HBONDS
+1   0.1 HBONDS      0
+2   0.2 HBONDS      0
+3   0.3 HBONDS      0
+4   0.4 HBONDS      0
+5   0.5 HBONDS      0
+6   0.6 HBONDS      0
+>>>  outs/rg-dcd-DCD-002.csv
+>>>  outs/rg-dcd-DCD-003.csv
+>>>  outs/rg-dcd-DCD-004.csv
+>>>  outs/rg-dcd-DCD-005.csv
+>>> wide2long-format.R out-HBONDS-trj500ns-Complex.csv FRAME SYSTEM HBONDS 
+>>> plot-XY-MultiLine.R out-HBONDS-trj500ns-Complex-LONG.csv FRAME HBONDS SYSTEM 'Number of hydrogen bonds' 'FRAME (ns)'

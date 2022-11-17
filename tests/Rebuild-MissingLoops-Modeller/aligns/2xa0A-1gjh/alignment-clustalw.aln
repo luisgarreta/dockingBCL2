@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+1gjh.1_A           --HAGRTGYDNREIVMKYIHYKLSQRGYEWDAGDDVEENRTEAPEG--------------
+2XA0_1|Chains      MAHAGRTGYDNREIVMKYIHYKLSQRGYEWDAGDVGAAPPGAAPAPGIFSSQPGHTPHPA
+                     ********************************        **                
+
+1gjh.1_A           ---------------------------TESEVVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+2XA0_1|Chains      ASRDPVARTSPLQTPAAPGAAAGPALSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+                                              . . *****************************
+
+1gjh.1_A           LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+2XA0_1|Chains      LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+                   ************************************************************
+
+1gjh.1_A           LNRHLHTWIQDNGGWDAFVELYGPSMR
+2XA0_1|Chains      LNRHLHTWIQDNGGWDAFVELYGPSMR
+                   ***************************

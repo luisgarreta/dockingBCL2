@@ -1,0 +1,2 @@
+RMSD analysis - protein
+The Root Mean Square Deviation (RMSD) and Root Mean Square Fluctuation (RMSF) are calculated to check the stability and conformation of the protein and ligand through the course of the simulation. RMSD is a standard measure of structural distance between coordinate sets that measures the average distance between a group of atoms. The RMSD of the Cα atoms of the protein backbone is calculated here and is a measure of how much the protein conformation has changed between different time points in the trajectory.

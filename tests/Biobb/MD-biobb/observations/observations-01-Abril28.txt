@@ -1,0 +1,20 @@
+- Check protein fixing:
+	- Missing residue chains
+	- Others 
+	- Compare visually using Maestro
+	- Compare with other tools
+
+- Check input vs. outputs results for each step:
+	- Visually
+	- RMSD
+	- Other tools: Maestro
+	
+- Check type of atoms ("tipado") from PDBs to GRO files (Force Field)
+
+- Check ligand preparation:
+	- Adding hydrogens before Minimization
+	- Reduce "criteria" 1e06
+	- Change minimization method: sd --> sg
+	- Check other parameter for minimization tool used by babel
+
+- Review methadynamics with Gromacs and Plumed

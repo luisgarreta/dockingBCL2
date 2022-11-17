@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+
+import os
+import numpy as np
+import pandas as pd
+
+# We will use pymol for comparison
+from pymol import cmd
+
+# All we need for clustering
+from scipy.cluster.hierarchy import dendrogram, linkage
+
+# Loading the poses
+#poses=Chem.SDMolSupplier('ZINC12447282.sdf')
+poses = ["%s/%s" % ("poses", x) for x in os.listdir ("poses")]
+n     = len (poses)
+hmap  = np.zeros (shape = (n, n)) - 1
+table = pd.DataFrame ()
+
+for i, mol in enumerate (poses):
+    print (">>>", mol)
+    for j, jmol in enumerate (poses):
+        print (">>>", jmol)
+        if (hmap[i,j] != -1):
+            continue
+        else:
+            cmd.load (mol, "ref")
+            cmd.load (jmol, "target")
+            rmsd = cmd.rms_cur ("ref", "target", cycles=10, matchmaker=1)
+            cmd.deselect ()
+            cmd.delete ("all")
+            hmap [i,j] = rmsd
+            hmap [j,i] = rmsd
+            table.loc [mol, jmol] = rmsd
+            table.loc [jmol, mol] = rmsd
+
+print (table)
+table.to_csv ("out-values-rmsd.csv")
+

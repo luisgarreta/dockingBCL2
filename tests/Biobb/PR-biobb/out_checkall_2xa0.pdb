@@ -1,0 +1,156 @@
+===============================================================================
+=                   BioBB structure checking utility v3.8.1                   =
+=                 A. Hospital, P. Andrio, J.L. Gelpi 2018-21                  =
+===============================================================================
+
+Structure inputs/2xa0.cif loaded
+ PDB id: 2XA0
+ Title: Crystal structure of BCL-2 in complex with a BAX BH3 peptide
+ Experimental method: X-RAY DIFFRACTION
+ Keywords: APOPTOSIS
+ Resolution (A): 2.70
+
+ Num. models: 1
+ Num. chains: 4 (A: Protein, B: Protein, C: Protein, D: Protein)
+ Num. residues:  347
+ Num. residues with ins. codes:  0
+ Num. HETATM residues:  21
+ Num. ligands or modified residues:  0
+ Num. water mol.:  21
+ Num. atoms:  2733
+
+Running models.
+1 Model(s) detected
+Single model found
+Running chains.
+4 Chain(s) detected
+ A: Protein
+ B: Protein
+ C: Protein
+ D: Protein
+Running inscodes.
+No residues with insertion codes found
+Running altloc.
+No residues with alternative location labels detected
+Running rem_hydrogen.
+No residues with Hydrogen atoms found
+Running add_hydrogen.
+116 Residues requiring selection on adding H atoms
+ CYS A158,B158,C62,D62
+ ASP A10,A31,A102,A103,A111,A140,A171,A191,A196,B10,B31,B102,B103,B111,B140,B171,B191,B196,C68,C71,C82,D68,D71,D82
+ GLU A13,A29,A114,A135,A136,A152,A160,A165,A179,A200,B13,B29,B114,B135,B136,B152,B160,B165,B179,B200,C61,C69,C75,D61,D69,D75
+ HIS A20,A94,A120,A184,A186,B20,B94,B120,B184,B186
+ LYS A17,A22,B17,B22,C57,C58,D57,D58
+ ARG A12,A26,A98,A106,A107,A109,A110,A127,A129,A139,A146,A164,A183,B12,B26,B98,B106,B107,B109,B110,B127,B129,B139,B146,B164,B183,C64,C65,C78,D64,D65,D78
+ TYR A18,A21,A28,A108,A180,A202,B18,B21,B28,B108,B180,B202
+Running water.
+21 Water molecules detected
+Running metals.
+No metal ions found
+Running ligands.
+No ligands found
+Running getss.
+No SS bonds detected
+Running amide.
+5 unusual contact(s) involving amide atoms found
+ ARG A107.NH2 ASN C73.ND2     2.933 A
+ GLN B118.OE1 LYS D57.O       2.907 A
+ ASN B143.OD1 ASP D68.OD1     2.845 A
+ ASN B143.ND2 GLY B145.N      2.601 A
+ ASN B143.ND2 ARG B146.N      2.551 A
+Running chiral.
+No residues with incorrect side-chain chirality found
+Running chiral_bck.
+No residues with incorrect backbone chirality found
+Running fixside.
+No residues with missing or unknown side chain atoms found
+Running backbone.
+2 Residues with missing backbone atoms found
+ ASP A31    OXT
+ ASP B31    OXT
+2 Backbone breaks found
+ ASP A31    - VAL A92    
+ ASP B31    - VAL B92    
+No unexpected backbone links
+Running cistransbck.
+No cis peptide bonds found
+No trans peptide bonds with unusual omega dihedrals found
+Running clashes.
+No severe clashes detected
+20 Steric apolar clashes detected
+ ARG A12.O    MET A16.CG      2.715 A
+ LYS A22.CE   GLU A152.OE2    2.650 A
+ TYR A28.CZ   ASN A163.OD1    2.853 A
+ VAL A93.O    LEU A97.CB      2.813 A
+ THR A125.CG2 ARG A129.NE     2.556 A
+ ALA A131.O   GLU A135.CG     2.853 A
+ ASN B11.CB   ASN B182.OD1    2.868 A
+ ILE B19.O    LEU B23.CD1     2.838 A
+ LYS B22.CE   GLU B152.OE2    2.745 A
+ HIS B120.C   ARG B129.NH1    2.889 A
+ GLU B136.CB  SER D60.OG      2.686 A
+ ASP B140.OD1 ARG D64.CZ      2.803 A
+ GLU B160.OE2 ARG B164.CD     2.862 A
+ ASN B172.O   LEU B175.CB     2.896 A
+ TRP B188.CE2 ASN B192.ND2    2.882 A
+ ILE B189.O   GLY B194.CA     2.874 A
+ SER C60.O    ARG C64.CG      2.853 A
+ LEU C70.O    MET C74.CG      2.796 A
+ SER D60.O    ARG D64.CG      2.684 A
+ MET D79.O    ASP D82.CB      2.625 A
+8 Steric polar_acceptor clashes detected
+ LEU A23.O    TYR A28.O       3.058 A
+ ARG A98.O    ASP A102.OD2    2.866 A
+ ARG B12.O    MET B16.SD      3.006 A
+ ARG B98.O    ASP B102.OD2    2.462 A
+ GLN B118.OE1 LYS D57.O       2.907 A
+ ASN B143.OD1 ASP D68.OD1     2.845 A
+ ARG C78.O    ASP C82.OD1     2.372 A
+ ARG D64.O    ASP D68.OD2     2.942 A
+7 Steric polar_donor clashes detected
+ ARG A107.NH2 ASN C73.ND2     2.933 A
+ LEU A121.N   ARG A164.NH1    2.831 A
+ ARG A139.NH2 ARG C64.NH1     2.659 A
+ ARG A146.NH2 ARG C64.NH2     2.879 A
+ ARG B139.NH2 LYS C58.NZ      2.750 A
+ ASN B143.ND2 GLY B145.N      2.601 A
+ ASN B143.ND2 ARG B146.N      2.551 A
+3 Steric positive clashes detected
+ ARG A139.NH2 ARG C64.NH1     2.659 A
+ ARG A146.NH2 ARG C64.NH2     2.879 A
+ ARG B139.NH2 LYS C58.NZ      2.750 A
+1 Steric negative clashes detected
+ ASP D71.OD1  GLU D75.OE2     3.386 A
+Running sequences.
+Canonical sequence
+>can_sq_A canonical sequence chain A
+MAHAGRTGYDNREIVMKYIHYKLSQRGYEWDAGDVGAAPPGAAPAPGIFSSQPGHTPHPA
+ASRDPVARTSPLQTPAAPGAAAGPALSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+LNRHLHTWIQDNGGWDAFVELYGPSMR
+>can_sq_B canonical sequence chain B
+MAHAGRTGYDNREIVMKYIHYKLSQRGYEWDAGDVGAAPPGAAPAPGIFSSQPGHTPHPA
+ASRDPVARTSPLQTPAAPGAAAGPALSPVPPVVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+LNRHLHTWIQDNGGWDAFVELYGPSMR
+>can_sq_C canonical sequence chain C
+QDASTKKLSECLRRIGDELDSNMELQRMIAD
+>can_sq_D canonical sequence chain D
+QDASTKKLSECLRRIGDELDSNMELQRMIAD
+
+Structure sequence
+>pdb_sq_A Frags: 92-206
+---------DNREIVMKYIHYKLSQRGYEWD-----------------------------
+-------------------------------VVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+LNRHLHTWIQDNGGWDAFVELYGPSM-
+>pdb_sq_B Frags: 92-206
+---------DNREIVMKYIHYKLSQRGYEWD-----------------------------
+-------------------------------VVHLTLRQAGDDFSRRYRRDFAEMSSQLH
+LTPFTARGRFATVVEELFRDGVNWGRIVAFFEFGGVMCVESVNREMSPLVDNIALWMTEY
+LNRHLHTWIQDNGGWDAFVELYGPSM-
+>pdb_sq_C Frags: 
+-----KKLSECLRRIGDELDSNMELQRMIAD
+>pdb_sq_D Frags: 
+-----KKLSECLRRIGDELDSNMELQRMIAD
+
