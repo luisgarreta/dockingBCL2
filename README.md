@@ -1,2 +1,2 @@
 # dockingBCL2
-Data and scripts for molecular docking and molecular dynamics simulations analysis of Bcl-xL protein in complex with Genistein compund
+Data and scripts from the execution and analysis of molecular docking and molecular dynamics simulations of Bcl-xL protein in complex with the compound Genistein.
