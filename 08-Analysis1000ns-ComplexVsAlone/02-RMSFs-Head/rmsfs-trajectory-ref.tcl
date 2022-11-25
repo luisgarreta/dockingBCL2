@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/dockingBCL2/scripts/rmsfs-trajectory-ref.tcl

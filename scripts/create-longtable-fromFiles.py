@@ -5,27 +5,27 @@
 # Create table in long format for XY plots from particular tables in dirs
 
 USAGE	   = "\
-Create table in long format for XY plots from particular .csv tables (FRAME, VALUE) in dirs\n\
-USAGE: create-longtable-fromFiles.py <input dir> <out file>"
+Create table in long format for XY plots from individual .csv tables (FRAME, VALUE) in dirs\n\
+USAGE: create-longtable-fromFiles.py <input dir> [out file]"
 	
 import os, sys
 args = sys.argv 
 #args = ["", "outrmsf"]
 
 def main ():
-	# Check command line argument
-	if (len(args) < 3):
+	if (len(args) < 2):
 		print (USAGE)
 		sys.exit (0)
 
-	inputDir   = args [1]
-	OUTFILE	   = args [2]
+	INPUTDIR   = args [1]
+	OUTFILE	   = "%s-LONG.csv" % INPUTDIR
 
 	# Get RMSDs for each DCD file
 	allValues = []
-	dirList = [x for x in sorted (os.listdir (inputDir)) if ".csv" in x]
+	dirList = [x for x in sorted (os.listdir (INPUTDIR)) if ".csv" in x]
+	print ("Files: %s", dirList)
 	for i, file in enumerate (dirList):
-		valuesPath = "%s/%s" % (inputDir, file)
+		valuesPath = "%s/%s" % (INPUTDIR, file)
 		print (">>> ", valuesPath)
 		lines	  = open (valuesPath).readlines ()
 		if (i==0):

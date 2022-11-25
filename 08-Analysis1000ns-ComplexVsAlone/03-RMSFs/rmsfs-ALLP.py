@@ -1,0 +1,1 @@
+/home/lg/BIO/omicas/dockingBCL2/07-Analysis500ns475ns-ComplexVsAlone/03-RMSFs/rmsfs-ALLP.py

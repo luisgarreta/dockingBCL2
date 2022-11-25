@@ -3,12 +3,15 @@
 # Aligning trajectories based on an atom selection and 
 # calculate RMSF of alpha carbons
 
+puts "--------------------------------------------------------------------"
+puts "--------------------------------------------------------------------"
 set PSF [lindex $argv 0];
 set DCD [lindex $argv 1];
 set PDB [lindex $argv 2];
+set TYPE [lindex $argv 3]
 set OUT [format "%s-RMSF.csv" [lindex [split $DCD "."] 0]]
-if { $argc == 5 } then {
-	set OUT  [lindex $argv 3];list
+if { $argc == 6 } then {
+	set OUT  [lindex $argv 4];list
 }
 
 mol new     $PSF type {psf} first 0 last -1 step 1 waitfor 1
@@ -16,6 +19,12 @@ mol addfile $DCD type {dcd} first 0 last -1 step 1 waitfor -1 0
 mol new     $PDB type {pdb} first 0 last -1 step 1 waitfor 1 
 
 set SELECTION "segid PROA and name CA"
+if {$TYPE eq "GROOVE"} then {
+	set SELECTION "segname PROA and name CA and noh and resid 104 to 132" 
+}
+if {$TYPE eq "HEAD"} then {
+	set SELECTION "segname PROA and name CA and noh and (resid 1 to 22 or resid 83 to 195)" 
+}
 
 set ref [atomselect 1 $SELECTION]
 set sel [atomselect 0 $SELECTION]

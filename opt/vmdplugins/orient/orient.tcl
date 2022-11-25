@@ -122,7 +122,7 @@ proc vmd_draw_principalaxes { mol sel {weights domass} } {
     set scale2 [expr 1.02 * $scale]
 
     # draw some nice vectors
-    graphics $mol delete all
+    #graphics $mol delete all
     graphics $mol color yellow
     set COM [Orient::sel_com $sel $weights]
     vmd_draw_vector $mol $COM [vecscale $scale $a1]
@@ -147,6 +147,9 @@ proc Orient::calc_principalaxes { sel {weights domass} } {
     puts "Getting the center-of-mass..."
     # get the COM
     set COM [Orient::sel_com $sel $weights]
+    puts ">>>>>>>>"
+    puts $COM
+    puts ">>>>>>>>"
     puts "Computing the inertia tensor..."
     # get the I
     set I [Orient::sel_it $sel $COM $weights]

@@ -1,1 +1,1 @@
-/home/lg/BIO/omicas/simulations/scripts/hbonds-ALLP.py
+/home/lg/BIO/omicas/dockingBCL2/scripts/hbonds-ALLP.py

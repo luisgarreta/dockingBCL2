@@ -5,9 +5,10 @@
 #
 set PSFFILE [lindex $argv 0];
 set DCDFILE [lindex $argv 1];
+set TYPE [lindex $argv 2]
 set OUTFILE "radio-gyration.csv"
-if { $argc == 4 } then {
-	set OUTFILE  [lindex $argv 2];list
+if { $argc == 5 } then {
+	set OUTFILE  [lindex $argv 3];list
 }
 
 mol new $PSFFILE first 0 last -1
@@ -62,8 +63,22 @@ puts $outfile "FRAME, RADIUSG"
 set nf [molinfo top get numframes] 
 set i 0
 
+# Set selection according to TYPE
+set SELECTION "segname PROA and name CA"
+if {$TYPE eq "GROOVE"} then {
+	set SELECTION "segname PROA and name CA and noh and resid 104 to 132" 
+}
+if {$TYPE eq "HEAD"} then {
+	set SELECTION "segname PROA and name CA and noh and (resid 1 to 22 or resid 83 to 195)" 
+}
+if {$TYPE eq "NOFLD"} then {
+	set SELECTION "segname PROA and name CA and noh and not resid 21 to 84" 
+}
+if {$TYPE eq "noLOOPs"} then {
+	set SELECTION "segname PROA and name CA and noh and not resid 21 to 84 and not resid 195 to 206" 
+}
 
-set PROTEIN [atomselect top "segname PROA"] 
+set PROTEIN [atomselect top $SELECTION] 
 #set COMPLEX [atomselect top "segname PROA or segname HETA"] 
 while {$i < $nf} {
     $PROTEIN frame $i

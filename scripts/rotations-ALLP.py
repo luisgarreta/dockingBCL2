@@ -1,61 +1,69 @@
 #!/usr/bin/env python3
 
-#!/users/legarreta/opt/miniconda3/envs/sims/bin/python
-#!/opt/miniconda3/envs/prolif/bin/python
-
 USAGE="\
 Calculate rotations for all frames in the trajectory\n\
 USAGE: rotations-ALLP.py <input trajectory dir> <Output results dir>"
-
 import os, sys
 import subprocess as sp
 import multiprocessing as mp
 from functools import partial
 
 def main ():
-    print "Main..."
 	args = sys.argv
-	if (len (args) < 3):
+	if (len (args) < 2):
 		print (USAGE)
 		sys.exit(0)
 
 	inputDir   = args [1]	# trajectories
-	outputDir  = args [2]   # outs
-	plotTitle  = args [3] if len (args > 3) else "Rotation angle plot"
-	outputFile = "out-Rotations-%s.csv" % outputDir
+	outputDir  = "out-%s" % inputDir
+	outputFile  = "%s/%s.csv" % (outputDir, outputDir)
 
-	dcdsList = ["%s/%s" % (inputDir, x) for x in os.listdir (inputDir) if ".dcd" in x]
-	dcdsList = sorted (dcdsList)
-	psfFile  = "%s/%s" % (inputDir, [x for x in os.listdir (inputDir) if ".psf" in x][0])
-	pdbFile  = "%s/%s" % (inputDir, [x for x in os.listdir (inputDir) if "Frame0-REF.pdb" in x][0])
+	if (not os.path.exists (outputFile)):
+		print (">>> Calculating rotations..")
+		createDir (outputDir)
+		dcdsList = ["%s/%s" % (inputDir, x) for x in os.listdir (inputDir) if ".dcd" in x]
+		dcdsList = sorted (dcdsList)
+		psfFile  = "%s/%s" % (inputDir, [x for x in os.listdir (inputDir) if ".psf" in x][0])
+		pdbFile  = "%s/%s" % (inputDir, [x for x in os.listdir (inputDir) if "REF.pdb" in x][0])
 
-	## Parallel calculation
-	os.system ("mkdir %s" % outputDir)
-	pool = mp.Pool (maxtasksperchild=1, processes=3)
-	pool.map (partial (calculateRotations, inputDir, psfFile, pdbFile, outputDir), dcdsList) 
+		## Parallel calculation
+		os.system ("mkdir %s" % outputDir)
+		pool = mp.Pool (maxtasksperchild=1, processes=3)
+		pool.map (partial (calculateRotations, inputDir, psfFile, pdbFile, outputDir), dcdsList) 
 
-	#for dcdFile in dcdsList:
-	#	calculateRotations (inputDir, psfFile, pdbFile, outputDir, dcdFile)
+		#for dcdFile in dcdsList:
+		#	calculateRotations (inputDir, psfFile, pdbFile, outputDir, dcdFile)
 
-	# Collect outputs
-	collectOutputs (outputDir, outputFile)
+		# Collect outputs
+		collectOutputs (outputDir, outputFile)
 
 	# Create table in long format and create plot
-	cmm2 = "wide2long-format.R %s %s %s %s " % (outputFile, "FRAME", "AXIS", "DEGREES")
+	cmm2 = "format-wide2long.R %s %s %s %s " % (outputFile, "FRAME", "AXIS", "DEGREES")
 	print (">>>", cmm2)
 	os.system (cmm2)
 
 	outLongFile = outputFile.replace (".csv", "-LONG.csv")
-	cmm3 = "plot-XY-MultiLine.R %s %s %s %s '%s' '%s'" % (outLongFile, "FRAME", "DEGREES", "AXIS", plotTitle, "FRAME (ns)")
+	if ("Complex" in outLongFile):
+		TITLE = "Axis rotations for complex"
+	else:	
+		TITLE = "Axis rotations for protein"
+		
+	cmm3 = "plot-XY-MultiLine.R %s %s %s %s '%s' '%s'" % (outLongFile, "FRAME", "DEGREES", "AXIS", TITLE, "FRAME (ns)")
 	print (">>>", cmm3)
 	os.system (cmm3)
 
+#------------------------------------------------------------------
+# calculateRotations
+#------------------------------------------------------------------
 def calculateRotations (inputDir, psfFile, pdbFile, outputDir, dcdFile):
 	outFile = "%s/%s" % (outputDir, os.path.basename (dcdFile.replace (".dcd", ".csv")))
 	cmm = "rotations-trajectory.tcl %s %s %s %s" % (psfFile, dcdFile, pdbFile, outFile)
 	print (cmm)
 	os.system (cmm)
 
+#------------------------------------------------------------------
+# Collect outputs
+#------------------------------------------------------------------
 def collectOutputs (outputDir, outputFile):
 	csvsList = [x for x in os.listdir (outputDir) if ".csv" in x]
 	csvsList = ["%s/%s" % (outputDir, x) for x in sorted (csvsList)]
@@ -86,6 +94,21 @@ def collectOutputs (outputDir, outputFile):
 	outf = open (outputFile, "w")
 	outf.writelines (allLines)
 	outf.close()
+
+#------------------------------------------------------------------
+# Utility to create a directory safely.
+#------------------------------------------------------------------
+def createDir (dir):
+	def checkExistingDir (dir):
+		if os.path.lexists (dir):
+			headDir, tailDir = os.path.split (dir)
+			oldDir = os.path.join (headDir, "old-" + tailDir)
+			if os.path.lexists (oldDir):
+					checkExistingDir (oldDir)
+
+			os.rename (dir, oldDir)
+	checkExistingDir (dir)
+	os.system ("mkdir -p %s" % dir)
 
 main ()
 

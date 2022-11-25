@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-#!/users/legarreta/opt/miniconda3/envs/sims/bin/python
-#!/opt/miniconda3/envs/prolif/bin/python
-
 USAGE="\
 Calculate RMSDs for all frames in split trajectory\n\
 USAGE: rmsds-ALLP.py <input trajectories dir>"
@@ -10,9 +7,13 @@ USAGE: rmsds-ALLP.py <input trajectories dir>"
 import os, sys
 import multiprocessing as mp
 from functools import partial
+NCPUS = 3
 
 def main ():
 	args = sys.argv
+	if (len (args) < 2):
+		print (USAGE)
+		sys.exit (0)
 
 	inputDir   = args [1]	# trajectories
 	outputDir  = "out-%s" % inputDir
@@ -20,7 +21,6 @@ def main ():
 
 	if (not os.path.exists (outputFile)):
 		print (">>> Calculating RMSDs..")
-		#	os.system ("mkdir %s" % outputDir)
 		createDir (outputDir)
 		dcdsList = ["%s/%s" % (inputDir, x) for x in os.listdir (inputDir) if ".dcd" in x]
 		dcdsList.sort ()
@@ -28,12 +28,12 @@ def main ():
 		pdbFile  = "%s/%s" % (inputDir, [x for x in os.listdir (inputDir) if "REF.pdb" in x][0])
 
 		# Parallel calculation
-		pool = mp.Pool (maxtasksperchild=1, processes=4)
+		pool = mp.Pool (maxtasksperchild=1, processes=NCPUS)
 		params   = [inputDir, psfFile]
 		pool.map (partial (calculateRMSD, inputDir, psfFile, pdbFile, outputDir), dcdsList) 
 
 		#for dcdFile in dcdsList:
-		#    calculateRMSD (inputDir, psfFile, pdbFile, dcdFile)
+		#	calculateRMSD (inputDir, psfFile, pdbFile, dcdFile)
 
 	# Collect outputs
 	collectOutputs (outputDir, outputFile)
@@ -44,13 +44,34 @@ def main ():
 	os.system (cmm2)
 
 	outLongFile = outputFile.replace (".csv", "-LONG.csv")
-	cmm3 = "plot-XY-MultiLine.R %s %s %s %s '%s' '%s'" % (outLongFile, "FRAME", "RMSD", "SYSTEM", "RMSD for complex ", "FRAME (ns)")
+	cmm3 = "plot-XY-MultiLine.R %s %s %s %s '%s' '%s'" % (outLongFile, "FRAME", "RMSD", "SYSTEM", "RMSD for RMSDs ", "FRAME (ns)")
 	print (">>>", cmm3)
 	os.system (cmm3)
 
+#------------------------------------------------------------------
+# Calculate RMSD
+#------------------------------------------------------------------
+def calculateRMSD (inputDir, psfFile, pdbFile, outputDir, dcdFile):
+	TYPE = "PROTEIN"
+	if ("Groove" in inputDir):
+		TYPE = "GROOVE"
+	elif ("Head" in inputDir):
+		TYPE = "HEAD"
+	elif ("noFLD" in inputDir):
+		TYPE = "NOFLD"
+	elif ("noLOOPs" in inputDir):
+		TYPE = "noLOOPs"
+
+	outFilename = "%s/rmsd-%s.csv" % (outputDir, os.path.basename (dcdFile).split(".")[0])
+	cmm = "rmsds-trajectory-ref.tcl %s %s %s %s %s" % (psfFile, dcdFile, pdbFile, TYPE, outFilename)
+	print (cmm)
+	os.system (cmm)
+
+#------------------------------------------------------------------
 # Collect outputs
+#------------------------------------------------------------------
 def collectOutputs (outputDir, outputFile):
-	csvsList = [x for x in os.listdir (outputDir) if ".csv" in x]
+	csvsList = [x for x in os.listdir (outputDir) if ".csv" in x and "DCD" in x]
 	csvsList = ["%s/%s" % (outputDir, x) for x in sorted (csvsList)]
 
 	nFrame = 0
@@ -70,12 +91,6 @@ def collectOutputs (outputDir, outputFile):
 	outf.writelines (allLines)
 	outf.close()
 
-def calculateRMSD (inputDir, psfFile, pdbFile, outputDir, dcdFile):
-    outFilename = "%s/rmsd-%s.csv" % (outputDir, os.path.basename (dcdFile).split(".")[0])
-    cmm = "rmsds-trajectory-ref.tcl %s %s %s %s" % (psfFile, dcdFile, pdbFile, outFilename)
-    print (cmm)
-    os.system (cmm)
-
 #------------------------------------------------------------------
 # Utility to create a directory safely.
 #------------------------------------------------------------------
@@ -90,6 +105,8 @@ def createDir (dir):
 			os.rename (dir, oldDir)
 	checkExistingDir (dir)
 	os.system ("mkdir -p %s" % dir)
+
+
 
 
 main ()

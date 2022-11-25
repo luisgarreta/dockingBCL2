@@ -14,7 +14,7 @@ namespace eval ::Orient:: {
 # $sel move $A
 # set I [draw principalaxes $sel]           <--- recalc principal axes to check
 # set A [orient $sel [lindex $I 1] {0 1 0}] <--- rotate axis 1 to match Y
-# $sel move $A
+#simulationssimulationssimulationssimulationssimulationssimulationssimulations $sel move $A
 # set I [draw principalaxes $sel]           <--- recalc principal axes to check#
 proc Orient::sel_com { sel weights } {
     set x [ $sel get x ]

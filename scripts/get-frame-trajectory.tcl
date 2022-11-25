@@ -25,7 +25,7 @@ set n_frames [molinfo $id get numframes]
 puts ">>> NFrames: $n_frames"
 
 if {$nFRAME eq ""} then {
-	puts [format ">>> NFrames: %s " [molinfo top get numframes]];
+	puts [format ">>> NFrames: %s " [molinfo $id get numframes]];
 	exit
 }
 switch $nFRAME {
@@ -69,7 +69,7 @@ puts [format ">>> SELECTION: %s" $SELECTION]
 
 
 #set frame0 [atomselect top "protein and backbone and noh" frame $nFRAME]
-set frame0 [atomselect top $SELECTION frame $nFRAME]
+set frame0 [atomselect $id $SELECTION frame $nFRAME]
 $frame0 writepdb $OUTFILE
 #render snapshot f.png
 exit

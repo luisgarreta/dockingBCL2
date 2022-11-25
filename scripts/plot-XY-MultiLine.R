@@ -19,7 +19,8 @@ YCOL      = args [3]
 ZCOL      = args [4]
 TITLE     = ifelse (is.na (args [5]), "Plot for %s" + YCOL, args[5])
 values    = read.csv (inputFile, header=T)
-#values$DEGREES = values$DEGREES
+if (XCOL=="FRAME")
+	values[,XCOL] = values[,XCOL]/10
 
 # Preprocessing values: scale to ns, 
 #values [,XCOL] = values [,XCOL]/10
@@ -39,18 +40,19 @@ head (values)
 
 # Check if single or multiline
 if (length (unique (values[,ZCOL])) > 1) { 
-	COLORS = ZCOL
-	COLOR  = NULL
+	ggplot (data=values, mapping=aes_string(x=XCOL, y=YCOL, color=ZCOL)) + 
+			geom_line (alpha=0.8) +
+			ggtitle (TITLE) + xlab(XLABEL) + ylab(YLABEL) +
+			theme (text = element_text(size = 12)) #+ ylim (-280, 80) 
+			#theme(strip.text.x = element_text(size = 45)) 
 }else {
-	COLORS = NULL
-	COLOR  = "blue"
+	ggplot (data=values, mapping=aes_string(x=XCOL, y=YCOL)) + 
+			geom_line (alpha=0.8, color="blue") +
+			ggtitle (TITLE) + xlab(XLABEL) + ylab(YLABEL) +
+			theme (text = element_text(size = 12)) #+ ylim (-250, 50) 
+			#theme(strip.text.x = element_text(size = 45)) 
 }
 
-ggplot (data=values, mapping=aes_string(x=XCOL, y=YCOL, color=COLORS)) + 
-		geom_line (alpha=0.8, color=COLOR) +
-		ggtitle (TITLE) + xlab(XLABEL) + ylab(YLABEL) +
-		theme (text = element_text(size = 12)) #+ ylim (-250, 50) 
-		#theme(strip.text.x = element_text(size = 45)) 
 
 outputFile  = sprintf ("%s.pdf", strsplit (inputFile, "[.]")[[1]][1])
 ggsave (outputFile, width=7, height=5)

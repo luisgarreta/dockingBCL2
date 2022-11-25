@@ -1,1 +1,1 @@
-/home/lg/BIO/omicas/simulations/scripts/plot-XY-MultiLine.R
+/home/lg/BIO/omicas/dockingBCL2/scripts/plot-XY-MultiLine.R
