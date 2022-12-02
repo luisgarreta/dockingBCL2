@@ -1,10 +1,11 @@
-DIR1="trajectory1000ns-noLOOPs-Protein"
-DIR2="trajectory1000ns-noLOOPs-Complex"
+TYPE="noLOOPs"
+DIR1="trajectory1000ns-$TYPE-Protein"
+DIR2="trajectory1000ns-$TYPE-Complex"
 #DIR1="trj10ns-TestAAA"
 #DIR2="trj10ns-TestBBB"
 OUT="out-radiusg-1000ns"
 
-#RadioGyration-ALLP.py $DIR1 
+RadioGyration-ALLP.py $DIR1 
 RadioGyration-ALLP.py $DIR2 
 
 mkdir $OUT

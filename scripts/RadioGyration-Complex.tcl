@@ -64,8 +64,8 @@ set nf [molinfo top get numframes]
 set i 0
 
 # Set selection according to TYPE
-set SELECTION "segname PROA and name CA"
-if {$TYPE eq "GROOVE"} then {
+set SELECTION "segname PROA and name CA and noh"
+if {$TYPE eq "Groove"} then {
 	set SELECTION "segname PROA and name CA and noh and resid 104 to 132" 
 }
 if {$TYPE eq "HEAD"} then {

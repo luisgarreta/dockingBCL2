@@ -52,9 +52,9 @@ def main ():
 # Calculate RMSD
 #------------------------------------------------------------------
 def calculateRG (inputDir, psfFile, outputDir, dcdFile):
-	TYPE = "PROTEIN"
+	TYPE = "ALL"
 	if ("Groove" in inputDir):
-		TYPE = "GROOVE"
+		TYPE = "Groove"
 	elif ("Head" in inputDir):
 		TYPE = "HEAD"
 	elif ("noFLD" in inputDir):

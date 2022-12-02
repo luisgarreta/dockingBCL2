@@ -6,9 +6,10 @@ from pymol import cmd
 # Open pymol and loads PDBs from input dir
 
 args = sys.argv
-pdbsDir = "pdbs"
+pdbsDir = "."
 
-pdbs = sorted (["%s/%s" % (pdbsDir, x) for x in os.listdir(pdbsDir)])
+pdbs = sorted (["%s" % (x) for x in os.listdir(pdbsDir)])
+print (pdbs)
 
 for pdbFile in pdbs:
     print (pdbFile)

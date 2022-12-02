@@ -1,1 +1,1 @@
-/home/lg/BIO/omicas/simulations/scripts/create-complexes-protein-ligand.py
+/home/lg/BIO/omicas/dockingBCL2/scripts/create-complexes-protein-ligand.py

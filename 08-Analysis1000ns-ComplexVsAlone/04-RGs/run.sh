@@ -1,13 +1,14 @@
-DIR1="trajectory1000ns-Protein"
-DIR2="trajectory1000ns-Complex"
+TYPE="ALL"
+DIR1="trajectory1000ns-$TYPE-Protein"
+DIR2="trajectory1000ns-$TYPE-Complex"
 #DIR1="trj10ns-TestAAA"
 #DIR2="trj10ns-TestBBB"
-OUT="radiusg-1000ns"
-mkdir $OUT
+OUT="out-radiusg-1000ns"
 
 RadioGyration-ALLP.py $DIR1 
 RadioGyration-ALLP.py $DIR2 
 
+mkdir $OUT
 cp out-$DIR1/out-$DIR1.csv $OUT
 cp out-$DIR2/out-$DIR2.csv $OUT
 
